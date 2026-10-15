@@ -2,11 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://moroccofanguide.site/</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.site/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.site/en/"/>
-  </url>
-  <url>
-    <loc>https://moroccofanguide.site/en/</loc>
+    <lastmod>2026-10-15</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.site/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.site/en/"/>
   </url>
@@ -21,5 +17,11 @@
     <lastmod>2026-10-15</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.site/traversee-bateau-espagne-maroc/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.site/en/ferry-spain-morocco/"/>
+  </url>
+  <url>
+    <loc>https://moroccofanguide.site/en/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.site/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.site/en/"/>
   </url>
 </urlset>
