@@ -124,3 +124,6 @@ tr:nth-child(even) td { background: #fbf8f2; }
 .site-footer li { margin-bottom: 6px; }
 .legal { border-top: 1px solid rgba(255,255,255,.12); }
 .legal .wrap { display: block; padding-top: 16px; padding-bottom: 20px; font-size: .85rem; }
+a.city { text-decoration: none; transition: transform .15s ease; }
+a.city:hover { transform: translateY(-3px); color: #fff; }
+.city em { font-style: normal; font-weight: 600; font-size: .85rem; margin-top: 6px; color: #fff; }
