@@ -38,8 +38,9 @@
   <a class="skip" href="#contenu">Skip to content</a>
   <header class="site-header"><div class="wrap">
     <a class="brand" href="/en/">Morocco Fan Guide</a>
-    <nav class="nav"><a href="/en/ferry-spain-morocco/">Getting there</a><a href="/en/things-to-do-in-marrakech/">Marrakech</a><a href="/en/#cities">Cities</a><a href="/en/#wc2030">2030</a></nav>
     <a class="lang" href="/" hreflang="fr" lang="fr">FR</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav"><span class="burger" aria-hidden="true"></span>Menu</button>
+    <nav class="nav" id="nav"><a href="/en/ferry-spain-morocco/">Getting there</a><a href="/en/things-to-do-in-marrakech/">Marrakech</a><a href="/en/#cities">Cities</a><a href="/en/#wc2030">2030</a></nav>
   </div></header>
   <main id="contenu"><section class="cover">
   <img class="cover-img big eager" src="/img/benhaddou.jpg" srcset="/img/benhaddou-500.jpg 500w, /img/benhaddou.jpg 960w" sizes="(max-width: 1100px) 100vw, 1100px" width="960" height="594" alt="The ksar of Aït-Ben-Haddou, a fortified earthen village by the river" fetchpriority="high" decoding="async">
@@ -111,5 +112,6 @@
     </div>
     <div class="legal"><div class="wrap">Independent website, not affiliated with FIFA, the Royal Moroccan Football Federation or the tournament organisers.</div></div>
   </footer>
+  <script>(function(){var b=document.querySelector('.menu-btn'),n=document.getElementById('nav');document.documentElement.classList.add('js');b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)})})();</script>
 </body>
 </html>
