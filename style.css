@@ -17,6 +17,7 @@
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
+html, body { overflow-wrap: break-word; }
 body { margin: 0; font-family: var(--sans); color: var(--text); background: var(--paper); line-height: 1.7; font-size: 18px; }
 img { max-width: 100%; height: auto; display: block; }
 a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
@@ -72,7 +73,10 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 700; line-height: 1.2; colo
 .section { padding-top: 56px; }
 .section-title { font-size: clamp(1.5rem, 3vw, 1.9rem); margin: 0 0 6px; padding-bottom: 10px; border-bottom: 2px solid var(--ink); }
 .section-intro { color: var(--muted); margin: 10px 0 22px; }
-.posts { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 36px 28px; margin-top: 26px; }
+/* min-width: 0 : sinon une photo de 960 px élargit la colonne de grille et la page défile en largeur */
+.posts > *, .cities > *, .two-col > *, .site-footer .wrap > * { min-width: 0; }
+.posts { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 36px 28px; margin-top: 26px; }
+.post-img { display: block; }
 .post-img img { aspect-ratio: 3 / 2; width: 100%; object-fit: cover; margin-bottom: 14px; }
 .post h3 { font-size: 1.3rem; margin: 0 0 8px; }
 .post h3 a { color: var(--ink); text-decoration: none; }
@@ -128,7 +132,7 @@ th { font-weight: 700; color: var(--ink); border-bottom: 2px solid var(--ink); }
 
 /* Pied de page */
 .site-footer { margin-top: 64px; background: var(--green); color: rgba(255,255,255,.8); font-size: .9rem; }
-.site-footer .wrap { padding-top: 40px; padding-bottom: 28px; display: grid; gap: 28px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.site-footer .wrap { padding-top: 40px; padding-bottom: 28px; display: grid; gap: 28px; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); }
 .site-footer h4 { font-family: var(--serif); color: #fff; font-size: 1.05rem; margin: 0 0 10px; }
 .site-footer p { margin: 0 0 8px; }
 .site-footer a { color: #fff; }
