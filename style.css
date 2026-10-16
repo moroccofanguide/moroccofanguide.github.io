@@ -35,7 +35,8 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 700; line-height: 1.2; colo
 /* En-tête */
 .site-header { border-bottom: 1px solid var(--line); background: var(--paper); }
 .site-header .wrap { display: flex; align-items: center; gap: 22px; min-height: 64px; }
-.brand { font-family: var(--serif); font-weight: 700; font-size: 1.3rem; color: var(--ink); text-decoration: none; white-space: nowrap; margin-right: auto; }
+.brand { display: inline-flex; align-items: center; gap: 10px; font-family: var(--serif); font-weight: 700; font-size: 1.3rem; color: var(--ink); text-decoration: none; white-space: nowrap; margin-right: auto; }
+.logo { width: 30px; height: 30px; flex: none; }
 .nav { display: flex; align-items: center; gap: 22px; order: 1; }
 .nav a, .lang { color: var(--text); text-decoration: none; font-size: .82rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
 .nav a:hover, .lang:hover { color: var(--accent); }
@@ -43,7 +44,8 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 700; line-height: 1.2; colo
 .menu-btn { display: none; }
 @media (max-width: 760px) {
   .site-header .wrap { flex-wrap: wrap; gap: 0 14px; min-height: 58px; }
-  .brand { font-size: 1.15rem; }
+  .brand { font-size: 1.15rem; gap: 8px; }
+  .logo { width: 26px; height: 26px; }
   .lang { order: 0; border: 0; padding: 0; }
   .js .menu-btn { display: inline-flex; align-items: center; gap: 8px; padding: 8px 0; border: 0; background: none;
     font: 600 .82rem var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--ink); cursor: pointer; }
