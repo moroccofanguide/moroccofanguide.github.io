@@ -2,15 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://moroccofanguide.site/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.site/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.site/en/"/>
   </url>
   <url>
     <loc>https://moroccofanguide.site/excursions-depuis-marrakech/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.site/excursions-depuis-marrakech/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.site/en/day-trips-from-marrakech/"/>
+  </url>
+  <url>
+    <loc>https://moroccofanguide.site/que-faire-a-marrakech/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.site/que-faire-a-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.site/en/things-to-do-in-marrakech/"/>
   </url>
   <url>
     <loc>https://moroccofanguide.site/traversee-bateau-espagne-maroc/</loc>
@@ -20,7 +26,7 @@
   </url>
   <url>
     <loc>https://moroccofanguide.site/en/day-trips-from-marrakech/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.site/excursions-depuis-marrakech/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.site/en/day-trips-from-marrakech/"/>
   </url>
@@ -32,8 +38,14 @@
   </url>
   <url>
     <loc>https://moroccofanguide.site/en/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.site/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.site/en/"/>
+  </url>
+  <url>
+    <loc>https://moroccofanguide.site/en/things-to-do-in-marrakech/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.site/que-faire-a-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.site/en/things-to-do-in-marrakech/"/>
   </url>
 </urlset>
