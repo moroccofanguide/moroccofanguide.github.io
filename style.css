@@ -18,6 +18,9 @@
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 html, body { overflow-wrap: break-word; }
+/* Filet de sécurité : jamais de défilement horizontal, même si un script tiers (Travelpayouts Drive) ajoute un élément trop large */
+html, body { overflow-x: hidden; }
+@supports (overflow-x: clip) { html, body { overflow-x: clip; } }
 body { margin: 0; font-family: var(--sans); color: var(--text); background: var(--paper); line-height: 1.7; font-size: 18px; }
 img { max-width: 100%; height: auto; display: block; }
 a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
