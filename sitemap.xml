@@ -60,4 +60,16 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/que-faire-a-marrakech/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/things-to-do-in-marrakech/"/>
   </url>
+  <url>
+    <loc>https://moroccofanguide.com/marrakech-la-nuit-securite/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/marrakech-la-nuit-securite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/is-marrakech-safe-at-night/"/>
+  </url>
+  <url>
+    <loc>https://moroccofanguide.com/en/is-marrakech-safe-at-night/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/marrakech-la-nuit-securite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/is-marrakech-safe-at-night/"/>
+  </url>
 </urlset>
