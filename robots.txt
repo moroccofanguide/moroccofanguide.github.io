@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://moroccofanguide.site/sitemap.xml
+Sitemap: https://moroccofanguide.com/sitemap.xml
