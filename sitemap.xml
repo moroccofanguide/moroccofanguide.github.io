@@ -72,4 +72,28 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/marrakech-la-nuit-securite/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/is-marrakech-safe-at-night/"/>
   </url>
+  <url>
+    <loc>https://moroccofanguide.com/maroc-pays-sur/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/maroc-pays-sur/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/is-morocco-safe/"/>
+  </url>
+  <url>
+    <loc>https://moroccofanguide.com/en/is-morocco-safe/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/maroc-pays-sur/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/is-morocco-safe/"/>
+  </url>
+  <url>
+    <loc>https://moroccofanguide.com/taxis-maroc/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/taxis-maroc/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/taxis-in-morocco/"/>
+  </url>
+  <url>
+    <loc>https://moroccofanguide.com/en/taxis-in-morocco/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/taxis-maroc/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/taxis-in-morocco/"/>
+  </url>
 </urlset>
