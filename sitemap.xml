@@ -96,4 +96,16 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/taxis-maroc/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/taxis-in-morocco/"/>
   </url>
+  <url>
+    <loc>https://moroccofanguide.com/prix-maroc/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/prix-maroc/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/morocco-prices/"/>
+  </url>
+  <url>
+    <loc>https://moroccofanguide.com/en/morocco-prices/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/prix-maroc/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/morocco-prices/"/>
+  </url>
 </urlset>
