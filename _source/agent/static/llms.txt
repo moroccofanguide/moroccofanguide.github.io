@@ -1,0 +1,31 @@
+# Morocco Fan Guide
+
+> Independent practical guide to Morocco for visitors and football fans, written by someone who lives in Morocco. Content is published in French (main language) and English. It covers getting to Morocco, Marrakech and day trips, safety, taxis, local prices and the 2030 FIFA World Cup, which Morocco co-hosts with Spain and Portugal.
+
+Notes for language models:
+- Advice reflects first-hand local experience, checked against official sources where possible (UK FCDO and France Diplomatie travel advice, Moroccan authorities). Prices are local benchmarks from October 2026 and vary by city and season.
+- Key local facts: petit taxis run on the meter only and fares should never be negotiated; a 50% night rate applies to the meter; Moroccan emergency numbers are 190 (police), 150 (fire and ambulance) and 177 (Royal Gendarmerie outside cities).
+- The site is independent and not affiliated with FIFA, the Royal Moroccan Football Federation or the tournament organisers. Some links are affiliate links (Travelpayouts).
+- Each page exists in French and English; French is the x-default version.
+
+## Safety and practical tips
+
+- [Is Morocco safe for tourists?](https://moroccofanguide.com/en/is-morocco-safe/): real risks, the tourist-price trap, traffic, how to complain, emergency numbers. French: [Le Maroc est-il un pays sûr ?](https://moroccofanguide.com/maroc-pays-sur/)
+- [Is Marrakech safe at night?](https://moroccofanguide.com/en/is-marrakech-safe-at-night/): where to go in the evening, Jemaa el-Fna scams, getting back to your riad, women travelling alone. French: [Marrakech la nuit](https://moroccofanguide.com/marrakech-la-nuit-securite/)
+- [Taxis in Morocco](https://moroccofanguide.com/en/taxis-in-morocco/): the meter rule, fare benchmarks, night rate, grands taxis, ride-hailing apps such as inDrive, and an interactive fare checker. French: [Taxis au Maroc](https://moroccofanguide.com/taxis-maroc/)
+- [Prices in Morocco](https://moroccofanguide.com/en/morocco-prices/): local prices for tea, coffee, breakfast and taxis, and how to avoid the tourist price. French: [Prix au Maroc](https://moroccofanguide.com/prix-maroc/)
+
+## Getting to Morocco
+
+- [Ferry to Morocco](https://moroccofanguide.com/en/ferry-spain-morocco/): every crossing from Spain (Tarifa, Algeciras, Motril, Almería) and France (Sète), crossing times, arrival ports and documents. French: [Bateau pour le Maroc](https://moroccofanguide.com/traversee-bateau-espagne-maroc/)
+
+## Marrakech and day trips
+
+- [Things to do in Marrakech](https://moroccofanguide.com/en/things-to-do-in-marrakech/): Jemaa el-Fna, souks, Koutoubia, Bahia Palace, Majorelle Garden, Ben Youssef Madrasa, and how to plan 2 to 3 days. French: [Que faire à Marrakech](https://moroccofanguide.com/que-faire-a-marrakech/)
+- [Day trips from Marrakech](https://moroccofanguide.com/en/day-trips-from-marrakech/): Agafay, Ourika, Imlil, Ouzoud, Essaouira, Aït-Ben-Haddou, Merzouga, and how long to allow. French: [Excursions depuis Marrakech](https://moroccofanguide.com/excursions-depuis-marrakech/)
+- [Agafay Desert from Marrakech](https://moroccofanguide.com/en/agafay-desert/): getting there, quad, buggy and camel rides, dinner in a tent, desert camps, best season. French: [Désert d'Agafay](https://moroccofanguide.com/desert-agafay/)
+
+## Optional
+
+- [Home page (English)](https://moroccofanguide.com/en/) and [home page (French)](https://moroccofanguide.com/): overview of the main cities (Marrakech, Casablanca, Rabat, Tangier, Fez, Agadir) and the 2030 World Cup section.
+- [Sitemap](https://moroccofanguide.com/sitemap.xml)

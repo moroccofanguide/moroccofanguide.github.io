@@ -1,0 +1,155 @@
+/* Morocco Fan Guide — feuille de style unique (style éditorial) */
+@font-face { font-family: "Source Serif 4"; src: url("/fonts/source-serif-4-latin-600.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Source Serif 4"; src: url("/fonts/source-serif-4-latin-700.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Source Serif 4"; src: url("/fonts/source-serif-4-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+:root {
+  --ink: #1d1b19;
+  --text: #2f2c29;
+  --muted: #6b655e;
+  --accent: #a8432a;
+  --accent-dark: #85331f;
+  --green: #1f3d36;
+  --paper: #ffffff;
+  --sand: #f6f2ec;
+  --line: #e6e0d8;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+html, body { overflow-wrap: break-word; }
+/* Filet de sécurité : jamais de défilement horizontal, même si un script tiers (Travelpayouts Drive) ajoute un élément trop large */
+html, body { overflow-x: hidden; }
+@supports (overflow-x: clip) { html, body { overflow-x: clip; } }
+body { margin: 0; font-family: var(--sans); color: var(--text); background: var(--paper); line-height: 1.7; font-size: 18px; }
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--accent-dark); }
+h1, h2, h3 { font-family: var(--serif); font-weight: 700; line-height: 1.2; color: var(--ink); letter-spacing: -.01em; }
+.wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 16px; top: 8px; background: #fff; padding: 8px 12px; z-index: 10; }
+.kicker { margin: 0 0 6px; font-size: .78rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.note { color: var(--muted); font-size: .9rem; }
+
+/* En-tête */
+.site-header { border-bottom: 1px solid var(--line); background: var(--paper); }
+.site-header .wrap { display: flex; align-items: center; gap: 22px; min-height: 64px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; font-family: var(--serif); font-weight: 700; font-size: 1.3rem; color: var(--ink); text-decoration: none; white-space: nowrap; margin-right: auto; }
+.logo { width: 30px; height: 30px; flex: none; }
+.nav { display: flex; align-items: center; gap: 22px; order: 1; }
+.nav a, .lang { color: var(--text); text-decoration: none; font-size: .82rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+.nav a:hover, .lang:hover { color: var(--accent); }
+.lang { order: 2; color: var(--muted); border-left: 1px solid var(--line); padding-left: 18px; }
+.menu-btn { display: none; }
+@media (max-width: 760px) {
+  .site-header .wrap { flex-wrap: wrap; gap: 0 14px; min-height: 58px; }
+  .brand { font-size: 1.15rem; gap: 8px; }
+  .logo { width: 26px; height: 26px; }
+  .lang { order: 0; border: 0; padding: 0; }
+  .js .menu-btn { display: inline-flex; align-items: center; gap: 8px; padding: 8px 0; border: 0; background: none;
+    font: 600 .82rem var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--ink); cursor: pointer; }
+  .burger, .burger::before, .burger::after { display: block; width: 18px; height: 2px; background: var(--ink); position: relative; transition: transform .2s; }
+  .burger::before, .burger::after { content: ""; position: absolute; left: 0; }
+  .burger::before { top: -6px; } .burger::after { top: 6px; }
+  .menu-btn[aria-expanded="true"] .burger { background: transparent; }
+  .menu-btn[aria-expanded="true"] .burger::before { transform: translateY(6px) rotate(45deg); }
+  .menu-btn[aria-expanded="true"] .burger::after { transform: translateY(-6px) rotate(-45deg); }
+  .nav { order: 3; width: 100%; flex-direction: column; align-items: stretch; gap: 0; padding: 4px 0 10px; }
+  .js .nav { display: none; }
+  .js .nav.open { display: flex; }
+  .nav a { padding: 13px 0; border-top: 1px solid var(--line); font-size: .9rem; }
+}
+
+/* Couverture de l'accueil */
+.cover { position: relative; background: var(--green); }
+.cover-img { width: 100%; height: min(72vh, 620px); object-fit: cover; }
+.cover-text { position: absolute; inset: auto 0 0 0; padding: 120px 0 36px; color: #fff;
+  background: linear-gradient(to top, rgba(15,13,11,.78), rgba(15,13,11,.35) 60%, transparent); }
+.cover-text .kicker { color: #f3d9b8; }
+.cover h1 { color: #fff; font-size: clamp(2rem, 5vw, 3.3rem); max-width: 760px; margin: 0 0 12px; }
+.cover-text p:last-child { max-width: 620px; margin: 0; font-size: 1.05rem; color: rgba(255,255,255,.92); }
+@media (max-width: 640px) {
+  .cover-img { height: 300px; }
+  .cover-text { position: static; background: var(--green); padding: 22px 0 26px; }
+}
+
+/* Sections de l'accueil */
+.section { padding-top: 56px; }
+.section-title { font-size: clamp(1.5rem, 3vw, 1.9rem); margin: 0 0 6px; padding-bottom: 10px; border-bottom: 2px solid var(--ink); }
+.section-intro { color: var(--muted); margin: 10px 0 22px; }
+/* min-width: 0 : sinon une photo de 960 px élargit la colonne de grille et la page défile en largeur */
+.posts > *, .cities > *, .two-col > *, .site-footer .wrap > * { min-width: 0; }
+.posts { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 36px 28px; margin-top: 26px; }
+.post-img { display: block; }
+.post-img img { aspect-ratio: 3 / 2; width: 100%; object-fit: cover; margin-bottom: 14px; }
+.post h3 { font-size: 1.3rem; margin: 0 0 8px; }
+.post h3 a { color: var(--ink); text-decoration: none; }
+.post h3 a:hover { color: var(--accent); }
+.post p { margin: 0 0 8px; font-size: .95rem; color: var(--text); }
+.post p.kicker { margin-bottom: 6px; font-size: .74rem; color: var(--accent); }
+.post .post-meta { font-size: .82rem; color: var(--muted); }
+.cities { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+@media (max-width: 860px) { .cities { grid-template-columns: repeat(2, 1fr); } }
+.city { position: relative; display: block; color: #fff; text-decoration: none; overflow: hidden; background: var(--green); }
+.city img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; transition: transform .4s ease; }
+.city span { position: absolute; inset: auto 0 0 0; padding: 40px 14px 12px; font-size: .85rem; line-height: 1.4;
+  background: linear-gradient(to top, rgba(15,13,11,.82), transparent); }
+.city strong { display: block; font-family: var(--serif); font-size: 1.25rem; }
+a.city:hover { color: #fff; }
+a.city:hover img { transform: scale(1.03); }
+@media (max-width: 480px) { .city span { font-size: .78rem; padding: 30px 10px 10px; } .city strong { font-size: 1.05rem; } }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.two-col p { margin: 14px 0 0; }
+@media (max-width: 760px) { .two-col { grid-template-columns: 1fr; gap: 0; } .two-col > div + div { padding-top: 40px; } }
+
+/* Articles */
+/* Colonne de lecture alignée à gauche sur le logo et la photo (grands écrans) */
+.article-head { padding-top: 36px; }
+.article-head > *, .article > * { max-width: 760px; }
+.crumbs { margin: 0 0 10px; font-size: .85rem; color: var(--muted); }
+.crumbs a { color: var(--muted); }
+.article-head h1 { font-size: clamp(1.9rem, 4.4vw, 2.7rem); margin: 0 0 14px; }
+.byline { margin: 0 0 26px; font-size: .88rem; color: var(--muted); }
+.wide { max-width: 1100px; }
+.lead-img { margin: 0; }
+.lead-img img { width: 100%; max-height: 560px; object-fit: cover; }
+.lead-img figcaption, .photo-credits { font-size: .78rem; color: var(--muted); line-height: 1.5; }
+.lead-img figcaption { padding-top: 8px; }
+.lead-img figcaption a, .photo-credits a { color: var(--muted); }
+.article { padding-top: 30px; }
+.article > p:first-child { font-size: 1.12rem; color: var(--ink); }
+.article h2 { font-size: 1.6rem; margin: 46px 0 12px; }
+.article h3 { font-size: 1.22rem; margin: 30px 0 8px; }
+.article ul, .article ol { padding-left: 22px; }
+.article li { margin-bottom: 6px; }
+.toc { border-left: 3px solid var(--accent); background: var(--sand); padding: 14px 20px; margin: 26px 0; font-size: .95rem; }
+.toc strong { font-family: var(--serif); font-size: 1.05rem; color: var(--ink); }
+.toc ol { margin: 6px 0 0; padding-left: 20px; }
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 18px 0; }
+table { width: 100%; border-collapse: collapse; font-size: .92rem; min-width: 560px; }
+th, td { padding: 10px 12px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+th { font-weight: 700; color: var(--ink); border-bottom: 2px solid var(--ink); }
+.tip { background: var(--sand); padding: 14px 18px; margin: 22px 0; }
+.tip strong:first-child { color: var(--accent-dark); }
+.photo-credits { margin-top: 48px; }
+.photo-credits p { margin: 0; padding-top: 14px; border-top: 1px solid var(--line); }
+
+/* Pied de page */
+.site-footer { margin-top: 64px; background: var(--green); color: rgba(255,255,255,.8); font-size: .9rem; }
+.site-footer .wrap { padding-top: 40px; padding-bottom: 28px; display: grid; gap: 28px; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); }
+.site-footer h4 { font-family: var(--serif); color: #fff; font-size: 1.05rem; margin: 0 0 10px; }
+.site-footer p { margin: 0 0 8px; }
+.site-footer a { color: #fff; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: 6px; }
+.legal { border-top: 1px solid rgba(255,255,255,.14); }
+.legal .wrap { display: block; padding-top: 16px; padding-bottom: 20px; font-size: .8rem; }
+
+/* Encadré de réservation (liens partenaires) */
+.book { border: 1px solid var(--line); border-top: 3px solid var(--green); padding: 16px 20px; margin: 30px 0; }
+.book-title { font-family: var(--serif); font-weight: 700; font-size: 1.15rem; color: var(--ink); margin: 0 0 6px; }
+.book ul { margin: 0; padding-left: 20px; }
+.book li { margin-bottom: 8px; }
+.book a { font-weight: 600; }
+.book-note { margin: 10px 0 0; font-size: .8rem; color: var(--muted); }
