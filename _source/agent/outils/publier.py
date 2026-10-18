@@ -11,6 +11,7 @@ import synchro
 
 TOKEN = open('/srv/agent/.github-moveon-token').read().strip()
 REPO = 'moroccofanguide/moroccofanguide.github.io'
+AUTEUR = {'name': 'Morocco Fan Guide', 'email': 'webmaster@moroccofanguide.com'}  # identité des commits (domaine .com)
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'site')
 MSG = sys.argv[1] if len(sys.argv) > 1 else 'Mise à jour du site'
 
@@ -61,7 +62,7 @@ if not entries:
     open(synchro.BASE_FILE, 'w').write(head)
     raise SystemExit(0)
 _, new_tree = api('POST', '/git/trees', {'base_tree': commit['tree']['sha'], 'tree': entries})
-_, new_commit = api('POST', '/git/commits', {'message': MSG, 'tree': new_tree['sha'], 'parents': [head]})
+_, new_commit = api('POST', '/git/commits', {'message': MSG, 'author': AUTEUR, 'tree': new_tree['sha'], 'parents': [head]})
 api('PATCH', '/git/refs/heads/main', {'sha': new_commit['sha']})  # sans force : échoue si le dépôt a bougé
 open(synchro.BASE_FILE, 'w').write(new_commit['sha'])
 print('\n'.join(changes))
