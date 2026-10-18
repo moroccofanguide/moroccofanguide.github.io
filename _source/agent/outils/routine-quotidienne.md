@@ -35,8 +35,12 @@ Dossier du projet : /srv/agent/workspace/clients/perso/sujets/moveon (fais `cd` 
    (ces formes sont pré-autorisées, toute autre peut être refusée) : `python3 -I outils/build.py`, contrôle du HTML
    généré, `python3 -I outils/synchro.py` (« git pull » : un autre agent publie aussi sur le dépôt GitHub, qui fait
    référence), puis `python3 -I outils/publier.py "<message>"`.
+   - Un autre agent publie aussi ; sa source éventuelle est dans le dépôt sous _source/ (la nôtre : _source/agent/,
+     envoyée automatiquement par publier.py, voir README.md du projet). Mets aussi à jour static/llms.txt à chaque article.
    - Si synchro.py liste des pages « À RECONSTITUER » : reporte dans contenu/ (métadonnées et corps) ce qui a changé
      dans la page en ligne, sans rien perdre de son contenu, relance build.py puis synchro.py jusqu'au code retour 0.
+     Aucune ligne « PERTE » ne doit rester. Si les seuls écarts restants sont volontaires (ordre, temps de lecture),
+     note-le dans le rapport en 🟠 : l'utilisateur ou une session interactive lancera `synchro.py --accepter`.
      S'il a téléchargé des fichiers dans static/, relance build.py puis synchro.py.
    - Ne publie jamais tant que synchro.py ne répond pas OK : publier.py refuse de toute façon, et ne supprime jamais
      rien dans le dépôt. Si tu n'arrives pas à reconstituer une page, ne publie pas et signale-le en 🟠.

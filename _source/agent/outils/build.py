@@ -265,6 +265,32 @@ def main():
     open(os.path.join(SITE, 'sitemap.xml'), 'w', encoding='utf-8').write(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
         'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' + '\n'.join(urls) + '\n</urlset>\n')
+    # Flux RSS pour la publication automatique d'épingles Pinterest (un flux par langue, un item par article)
+    import email.utils, datetime
+    for lang, out in (('fr', 'pinterest.xml'), ('en', 'en/pinterest.xml')):
+        items = []
+        for q in by_date(q for q in pages if q['lang'] == lang and q['type'] == 'article'):
+            i = IMAGES[q['image']]
+            size = os.path.getsize(os.path.join(BASE, 'static', i['file'].lstrip('/')))
+            pub = datetime.datetime.fromisoformat(q.get('published', q['updated']) + 'T08:00:00+00:00')
+            items.append(f'''  <item>
+    <title>{e(q.get('seo_title', q['title']))}</title>
+    <link>{DOMAIN}{q['path']}</link>
+    <guid isPermaLink="true">{DOMAIN}{q['path']}</guid>
+    <description>{e(q['description'])}</description>
+    <pubDate>{email.utils.format_datetime(pub)}</pubDate>
+    <enclosure url="{DOMAIN}{i['file']}" length="{size}" type="image/jpeg"/>
+    <media:content url="{DOMAIN}{i['file']}" medium="image" type="image/jpeg" width="{i['w']}" height="{i['h']}"/>
+  </item>''')
+        home = DOMAIN + T[lang]['home']
+        desc = T[lang]['f_about'][1]
+        open(os.path.join(SITE, out), 'w', encoding='utf-8').write(
+            '<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" '
+            'xmlns:atom="http://www.w3.org/2005/Atom">\n<channel>\n'
+            f'  <title>Morocco Fan Guide{"" if lang == "fr" else " (English)"}</title>\n  <link>{home}</link>\n'
+            f'  <description>{e(desc)}</description>\n  <language>{"fr-FR" if lang == "fr" else "en-GB"}</language>\n'
+            f'  <atom:link href="{DOMAIN}/{out}" rel="self" type="application/rss+xml"/>\n'
+            + '\n'.join(items) + '\n</channel>\n</rss>\n')
     print(f'{len(pages)} pages générées')
 
 

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Morocco Fan Guide</title>
+  <link>https://moroccofanguide.com/</link>
+  <description>Guide indépendant tenu par un passionné de football qui vit au Maroc : des conseils pratiques, vérifiés et mis à jour.</description>
+  <language>fr-FR</language>
+  <atom:link href="https://moroccofanguide.com/pinterest.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Taxis au Maroc : petits taxis, grands taxis et VTC</title>
+    <link>https://moroccofanguide.com/taxis-maroc/</link>
+    <guid isPermaLink="true">https://moroccofanguide.com/taxis-maroc/</guid>
+    <description>Taxis au Maroc : la règle du compteur, éviter le prix touriste, grands taxis à prix fixe et ce qu&#x27;il faut savoir sur inDrive, par un habitant du Maroc.</description>
+    <pubDate>Sat, 17 Oct 2026 08:00:00 +0000</pubDate>
+    <enclosure url="https://moroccofanguide.com/img/tanger.jpg" length="234268" type="image/jpeg"/>
+    <media:content url="https://moroccofanguide.com/img/tanger.jpg" medium="image" type="image/jpeg" width="960" height="708"/>
+  </item>
+  <item>
+    <title>Prix au Maroc : thé, café, taxi, petit-déjeuner, les repères d&#x27;un local</title>
+    <link>https://moroccofanguide.com/prix-maroc/</link>
+    <guid isPermaLink="true">https://moroccofanguide.com/prix-maroc/</guid>
+    <description>Combien coûtent un thé, un café, un petit-déjeuner ou un taxi au Maroc ? Les prix locaux réels pour ne pas payer le prix touriste, par un habitant.</description>
+    <pubDate>Sat, 17 Oct 2026 08:00:00 +0000</pubDate>
+    <enclosure url="https://moroccofanguide.com/img/agadir.jpg" length="101311" type="image/jpeg"/>
+    <media:content url="https://moroccofanguide.com/img/agadir.jpg" medium="image" type="image/jpeg" width="960" height="720"/>
+  </item>
+  <item>
+    <title>Marrakech la nuit : est-ce dangereux ? Les conseils d&#x27;un local</title>
+    <link>https://moroccofanguide.com/marrakech-la-nuit-securite/</link>
+    <guid isPermaLink="true">https://moroccofanguide.com/marrakech-la-nuit-securite/</guid>
+    <description>Marrakech la nuit est-elle sûre ? Où sortir, arnaques de Jemaa el-Fna, rentrer au riad, conseils aux femmes seules, par un habitant du Maroc.</description>
+    <pubDate>Sat, 17 Oct 2026 08:00:00 +0000</pubDate>
+    <enclosure url="https://moroccofanguide.com/img/jemaa.jpg" length="136539" type="image/jpeg"/>
+    <media:content url="https://moroccofanguide.com/img/jemaa.jpg" medium="image" type="image/jpeg" width="960" height="522"/>
+  </item>
+  <item>
+    <title>Le Maroc est-il un pays sûr ? Ce qu&#x27;un local vous conseille</title>
+    <link>https://moroccofanguide.com/maroc-pays-sur/</link>
+    <guid isPermaLink="true">https://moroccofanguide.com/maroc-pays-sur/</guid>
+    <description>Le Maroc est-il sûr pour les touristes ? Vrais risques, prix touriste, circulation, comment réclamer et numéros d&#x27;urgence, par un habitant du Maroc.</description>
+    <pubDate>Sat, 17 Oct 2026 08:00:00 +0000</pubDate>
+    <enclosure url="https://moroccofanguide.com/img/rabat.jpg" length="156662" type="image/jpeg"/>
+    <media:content url="https://moroccofanguide.com/img/rabat.jpg" medium="image" type="image/jpeg" width="960" height="718"/>
+  </item>
+  <item>
+    <title>Désert d&#x27;Agafay : excursion, quad, dîner et nuit en camp</title>
+    <link>https://moroccofanguide.com/desert-agafay/</link>
+    <guid isPermaLink="true">https://moroccofanguide.com/desert-agafay/</guid>
+    <description>Agafay depuis Marrakech : accès, quad, buggy, dromadaire, dîner sous tente, nuit en camp, meilleure saison et conseils pour bien choisir.</description>
+    <pubDate>Sat, 17 Oct 2026 08:00:00 +0000</pubDate>
+    <enclosure url="https://moroccofanguide.com/img/agafay-tente.jpg" length="168035" type="image/jpeg"/>
+    <media:content url="https://moroccofanguide.com/img/agafay-tente.jpg" medium="image" type="image/jpeg" width="960" height="641"/>
+  </item>
+  <item>
+    <title>Que faire à Marrakech : les incontournables (médina, jardins)</title>
+    <link>https://moroccofanguide.com/que-faire-a-marrakech/</link>
+    <guid isPermaLink="true">https://moroccofanguide.com/que-faire-a-marrakech/</guid>
+    <description>Jemaa el-Fna, souks, Koutoubia, palais de la Bahia, jardin Majorelle, médersa Ben Youssef : que voir à Marrakech et comment organiser 2-3 jours.</description>
+    <pubDate>Fri, 16 Oct 2026 08:00:00 +0000</pubDate>
+    <enclosure url="https://moroccofanguide.com/img/jemaa.jpg" length="136539" type="image/jpeg"/>
+    <media:content url="https://moroccofanguide.com/img/jemaa.jpg" medium="image" type="image/jpeg" width="960" height="522"/>
+  </item>
+  <item>
+    <title>Bateau pour le Maroc : traversées depuis l&#x27;Espagne et la France</title>
+    <link>https://moroccofanguide.com/traversee-bateau-espagne-maroc/</link>
+    <guid isPermaLink="true">https://moroccofanguide.com/traversee-bateau-espagne-maroc/</guid>
+    <description>Ferry pour le Maroc depuis l&#x27;Espagne (Tarifa, Algésiras, Motril, Almería) et Sète : durées, ports d&#x27;arrivée, conseils pour l&#x27;été et documents.</description>
+    <pubDate>Thu, 15 Oct 2026 08:00:00 +0000</pubDate>
+    <enclosure url="https://moroccofanguide.com/img/ferry.jpg" length="141030" type="image/jpeg"/>
+    <media:content url="https://moroccofanguide.com/img/ferry.jpg" medium="image" type="image/jpeg" width="960" height="640"/>
+  </item>
+  <item>
+    <title>Excursions depuis Marrakech : les meilleures sorties</title>
+    <link>https://moroccofanguide.com/excursions-depuis-marrakech/</link>
+    <guid isPermaLink="true">https://moroccofanguide.com/excursions-depuis-marrakech/</guid>
+    <description>Agafay, Ourika, Imlil, Ouzoud, Essaouira, Aït-Ben-Haddou, Merzouga : quelle excursion choisir depuis Marrakech et combien de temps prévoir.</description>
+    <pubDate>Thu, 15 Oct 2026 08:00:00 +0000</pubDate>
+    <enclosure url="https://moroccofanguide.com/img/agafay.jpg" length="208646" type="image/jpeg"/>
+    <media:content url="https://moroccofanguide.com/img/agafay.jpg" medium="image" type="image/jpeg" width="960" height="641"/>
+  </item>
+</channel>
+</rss>
