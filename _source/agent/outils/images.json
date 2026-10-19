@@ -154,5 +154,17 @@
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Agafay_Desert,_Morocco,_20250125_1819_7292.jpg"
+ },
+ "souk-lanternes": {
+  "file": "/img/souk-lanternes.jpg",
+  "small": "/img/souk-lanternes-500.jpg",
+  "w": 960,
+  "h": 702,
+  "alt_fr": "Lanternes en métal ciselé dans le souk Haddadine, médina de Marrakech",
+  "alt_en": "Pierced metal lanterns in Souk Haddadine, Marrakech medina",
+  "author": "Petar Milošević",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Oriental_hanging_lanterns._Souk_Haddadine,_Marrakech_Medina_(%D8%B3%D9%88%D9%82_%D8%A7%D9%84%D8%AD%D8%AF%D8%A7%D8%AF%D9%8A%D9%86_%D9%85%D8%B1%D8%A7%D9%83%D8%B4).jpg"
  }
 }

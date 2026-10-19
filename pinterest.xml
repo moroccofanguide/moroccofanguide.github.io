@@ -7,6 +7,15 @@
   <language>fr-FR</language>
   <atom:link href="https://moroccofanguide.com/pinterest.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Souks de Marrakech : plan, quoi acheter, marchandage</title>
+    <link>https://moroccofanguide.com/souks-marrakech/</link>
+    <guid isPermaLink="true">https://moroccofanguide.com/souks-marrakech/</guid>
+    <description>Semmarine, teinturiers, Rahba Kedima, cuir, babouches : comment s&#x27;orienter dans les souks de Marrakech, quoi acheter et bien marchander.</description>
+    <pubDate>Mon, 19 Oct 2026 08:00:00 +0000</pubDate>
+    <enclosure url="https://moroccofanguide.com/img/souk-lanternes.jpg" length="332082" type="image/jpeg"/>
+    <media:content url="https://moroccofanguide.com/img/souk-lanternes.jpg" medium="image" type="image/jpeg" width="960" height="702"/>
+  </item>
+  <item>
     <title>Taxis au Maroc : petits taxis, grands taxis et VTC</title>
     <link>https://moroccofanguide.com/taxis-maroc/</link>
     <guid isPermaLink="true">https://moroccofanguide.com/taxis-maroc/</guid>
@@ -16,7 +25,7 @@
     <media:content url="https://moroccofanguide.com/img/tanger.jpg" medium="image" type="image/jpeg" width="960" height="708"/>
   </item>
   <item>
-    <title>Prix au Maroc : thé, café, taxi, petit-déjeuner, les repères d&#x27;un local</title>
+    <title>Prix au Maroc : thé, café, taxi, repas, les repères d&#x27;un local</title>
     <link>https://moroccofanguide.com/prix-maroc/</link>
     <guid isPermaLink="true">https://moroccofanguide.com/prix-maroc/</guid>
     <description>Combien coûtent un thé, un café, un petit-déjeuner ou un taxi au Maroc ? Les prix locaux réels pour ne pas payer le prix touriste, par un habitant.</description>

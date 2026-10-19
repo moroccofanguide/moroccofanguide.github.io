@@ -47,6 +47,10 @@ Dossier du projet : /srv/agent/workspace/clients/perso/sujets/moveon (fais `cd` 
    Fais la synchro aussi au début de la routine (après l'étape 1), pour écrire l'article sur une base à jour.
    vérifie que les nouvelles pages répondent 200 en ligne avec `</html>` (attends le déploiement GitHub Pages,
    jusqu'à 5 minutes).
+4 bis. Facebook : une fois les pages vérifiées en ligne, lance EXACTEMENT, seule,
+   `python3 -I outils/social.py --publier` (partage UN article pas encore partagé sur la Page Facebook
+   Morocco Fan Guide, en alternant FR et EN ; il ne republie jamais un article). Note l'URL partagée dans le
+   rapport. « Refus de Meta » avec jeton expiré ou révoqué : 🟠 (relancer /srv/agent/depot/moveon-jeton-meta.sh).
 5. Mets à jour plan-editorial.md (article déplacé dans « Publiés ») et ajoute une ligne datée dans journal.md
    (publié, corrigé, constaté).
 6. Interdits : afficher un secret (jeton GitHub, sujet ntfy), contacter un serveur, installer quoi que ce soit,
