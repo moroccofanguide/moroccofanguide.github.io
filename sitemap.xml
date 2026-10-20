@@ -19,6 +19,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/day-trips-from-marrakech/"/>
   </url>
   <url>
+    <loc>https://moroccofanguide.com/jemaa-el-fna/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/jemaa-el-fna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/jemaa-el-fna/"/>
+  </url>
+  <url>
     <loc>https://moroccofanguide.com/maroc-pays-sur/</loc>
     <lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/maroc-pays-sur/"/>
@@ -95,6 +101,12 @@
     <lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/maroc-pays-sur/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/is-morocco-safe/"/>
+  </url>
+  <url>
+    <loc>https://moroccofanguide.com/en/jemaa-el-fna/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/jemaa-el-fna/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/jemaa-el-fna/"/>
   </url>
   <url>
     <loc>https://moroccofanguide.com/en/marrakech-souks/</loc>
