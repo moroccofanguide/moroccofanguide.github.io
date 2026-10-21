@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://moroccofanguide.com/a-propos/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/a-propos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/about/"/>
+  </url>
+  <url>
     <loc>https://moroccofanguide.com/</loc>
     <lastmod>2026-10-16</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/"/>
+  </url>
+  <url>
+    <loc>https://moroccofanguide.com/confidentialite/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/privacy/"/>
   </url>
   <url>
     <loc>https://moroccofanguide.com/desert-agafay/</loc>
@@ -67,6 +79,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/ferry-spain-morocco/"/>
   </url>
   <url>
+    <loc>https://moroccofanguide.com/en/about/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/a-propos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/about/"/>
+  </url>
+  <url>
     <loc>https://moroccofanguide.com/en/agafay-desert/</loc>
     <lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/desert-agafay/"/>
@@ -119,6 +137,12 @@
     <lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/prix-maroc/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/morocco-prices/"/>
+  </url>
+  <url>
+    <loc>https://moroccofanguide.com/en/privacy/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/privacy/"/>
   </url>
   <url>
     <loc>https://moroccofanguide.com/en/taxis-in-morocco/</loc>

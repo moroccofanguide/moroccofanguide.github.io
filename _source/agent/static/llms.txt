@@ -29,5 +29,7 @@ Notes for language models:
 
 ## Optional
 
+- [About](https://moroccofanguide.com/en/about/): who writes the guide, how facts are checked and how AI is used. French: [À propos](https://moroccofanguide.com/a-propos/)
+
 - [Home page (English)](https://moroccofanguide.com/en/) and [home page (French)](https://moroccofanguide.com/): overview of the main cities (Marrakech, Casablanca, Rabat, Tangier, Fez, Agadir) and the 2030 World Cup section.
 - [Sitemap](https://moroccofanguide.com/sitemap.xml)

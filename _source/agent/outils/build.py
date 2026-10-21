@@ -34,7 +34,7 @@ T = {
         'other': 'EN', 'crumb_home': 'Accueil', 'updated': 'Mis à jour le', 'published': 'Publié le', 'by': 'Par la rédaction de Morocco Fan Guide',
         'photo': 'Photo', 'photos': 'Crédits photo', 'read': 'min de lecture',
         'f_about': ('Morocco Fan Guide', "Guide indépendant tenu par un passionné de football qui vit au Maroc : des conseils pratiques, vérifiés et mis à jour."),
-        'f_links': 'À lire', 'f_info': 'Transparence',
+        'f_links': 'À lire', 'f_info': 'Transparence', 'about': ('/a-propos/', 'À propos'), 'privacy': ('/confidentialite/', 'Confidentialité'),
         'indep': 'Site indépendant, sans lien avec la FIFA, la Fédération royale marocaine de football ni les organisateurs du tournoi.',
         'aff': "Certains liens peuvent être des liens affiliés : si vous réservez par leur intermédiaire, nous pouvons recevoir une commission, sans surcoût pour vous.",
         'cookies': "Les outils de notre partenaire d'affiliation (Travelpayouts) peuvent déposer des cookies pour attribuer les réservations.",
@@ -47,7 +47,7 @@ T = {
         'other': 'FR', 'crumb_home': 'Home', 'updated': 'Updated', 'published': 'Published', 'by': 'By the Morocco Fan Guide team',
         'photo': 'Photo', 'photos': 'Photo credits', 'read': 'min read',
         'f_about': ('Morocco Fan Guide', 'An independent guide run by a football fan who lives in Morocco: practical, checked and up-to-date advice.'),
-        'f_links': 'Read next', 'f_info': 'Transparency',
+        'f_links': 'Read next', 'f_info': 'Transparency', 'about': ('/en/about/', 'About'), 'privacy': ('/en/privacy/', 'Privacy'),
         'indep': 'Independent website, not affiliated with FIFA, the Royal Moroccan Football Federation or the tournament organisers.',
         'aff': 'Some links may be affiliate links: if you book through them, we may earn a commission at no extra cost to you.',
         'cookies': 'Tools from our affiliate partner (Travelpayouts) may set cookies to attribute bookings.',
@@ -162,7 +162,7 @@ def render(p, pages):
     if p['type'] == 'article':
         ld.update({'@type': 'Article', 'headline': p['title'], 'dateModified': p['updated'],
                    'datePublished': p.get('published', p['updated']),
-                   'author': {'@type': 'Organization', 'name': 'Morocco Fan Guide', 'url': DOMAIN + t['home']},
+                   'author': {'@type': 'Organization', 'name': 'Morocco Fan Guide', 'url': DOMAIN + t['about'][0]},
                    'publisher': {'@type': 'Organization', 'name': 'Morocco Fan Guide'}})
         figure = (f'<figure class="lead-img">{img(p["image"], lang, [], big=True, eager=True)}'
                   f'<figcaption>{credit(p["image"], lang)}</figcaption></figure>')
@@ -172,6 +172,11 @@ def render(p, pages):
                f'{fmt_date(p["updated"], lang)} · '
                f'{reading_time(p["body"])} {t["read"]}</p></header>'
                f'<div class="wrap wide">{figure}</div>'
+               f'<main id="contenu" class="wrap article">{body}</main>')
+    elif p['type'] == 'page':
+        ld.update({'@type': 'WebPage', 'name': p['title'], 'dateModified': p['updated']})
+        top = (f'<header class="article-head wrap"><p class="crumbs"><a href="{t["home"]}">{t["crumb_home"]}</a> / '
+               f'{e(p.get("crumb", ""))}</p><h1>{re.sub(" ([:;?!])", "\u00a0\\1", e(p["title"]))}</h1></header>'
                f'<main id="contenu" class="wrap article">{body}</main>')
     else:
         ld.update({'@type': 'WebSite', 'name': 'Morocco Fan Guide'})
@@ -230,7 +235,7 @@ def render(p, pages):
     <div class="wrap">
       <div><h4>{t['f_about'][0]}</h4><p>{t['f_about'][1]}</p></div>
       <div><h4>{t['f_links']}</h4><ul>{links}</ul></div>
-      <div><h4>{t['f_info']}</h4><p>{t['aff']}</p><p>{t['cookies']}</p></div>
+      <div><h4>{t['f_info']}</h4><p>{t['aff']}</p><p>{t['cookies']}</p><p><a href="{t['about'][0]}">{t['about'][1]}</a> · <a href="{t['privacy'][0]}">{t['privacy'][1]}</a></p></div>
     </div>
     <div class="legal"><div class="wrap">{t['indep']}</div></div>
   </footer>
