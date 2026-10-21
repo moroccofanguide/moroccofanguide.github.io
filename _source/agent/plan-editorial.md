@@ -1,6 +1,6 @@
 # Plan éditorial — moroccofanguide.com
 
-Règle : un article par jour, en français ET en anglais, choisi en haut de la liste « À écrire ».
+Règle : au plus 2 nouveaux articles par semaine (lundi et jeudi), en français ET en anglais, choisis en haut de la liste « À écrire », chacun avec du vécu vérifié par outils/sources_vecu.py (voir routine-quotidienne.md, étape 3a).
 Priorité = volume de recherche × intention de réservation (activités GetYourGuide, ferry, hôtels) ÷ concurrence.
 Volumes : OpenRush, France, octobre 2026 (confiance 0,7). Vérifier chaque fait avant publication.
 

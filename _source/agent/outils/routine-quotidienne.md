@@ -15,7 +15,21 @@ Dossier du projet : /srv/agent/workspace/clients/perso/sujets/moveon (fais `cd` 
    journal.md les clics vers les partenaires (type redirect : popunder = integration_background, liens convertis =
    link_switcher) et les gains. Si une page reçoit des visites mais aucun clic, renforce son encadré « Réserver ».
    Première réservation ou premier gain : signale-le en 🟠 (bonne nouvelle à transmettre à l'utilisateur).
-3. Écris UN nouvel article : le premier de « À écrire » dans plan-editorial.md, en français ET en anglais
+3. Contenu. RÈGLES GLOBALES : respecte outils/regles-seo.md (Google : guide SEO, règles anti-spam, contenu IA).
+   Rythme : AU PLUS 2 nouveaux articles par semaine, le lundi et le jeudi uniquement. Les autres jours, pas de
+   nouvel article : améliore un article existant (étape 3c) ou passe directement à l'étape 4 s'il n'y a rien à publier.
+3a. Vécu obligatoire avant d'écrire (outil : outils/sources_vecu.py, voir son en-tête) :
+   - lis contenu/vecu/<slug>.md s'il existe : c'est l'apport de l'auteur, prioritaire, à intégrer fidèlement ;
+   - lance EXACTEMENT `python3 -I outils/sources_vecu.py requetes "<sujet>"` puis la même commande avec `--lang en`,
+     fais ces recherches avec WebSearch et lis les fils pertinents avec WebFetch (forums, Reddit, vidéos) ;
+   - enregistre chaque témoignage utile avec `python3 -I outils/sources_vecu.py ajouter <slug> --type ... --url ...
+     --date AAAA-MM --resume "..."` (résumé dans tes mots, citation de 25 mots maximum, aucun pseudo) ;
+   - lance `python3 -I outils/sources_vecu.py verifier <slug>`. Code retour 1 : écris l'article dans
+     contenu/brouillons/ (pas dans contenu/fr ou en), NE PUBLIE PAS, et demande en 🟠 à l'auteur son expérience
+     sur ce sujet (3 questions précises) à déposer dans contenu/vecu/<slug>.md.
+   - Dans l'article : un témoignage de voyageur est présenté comme tel (« des voyageurs rapportent sur… », avec lien
+     rel="noopener"), jamais comme l'expérience de l'auteur. L'apport de l'auteur peut être dit à la première personne.
+3b. Écris le nouvel article : le premier de « À écrire » dans plan-editorial.md, en français ET en anglais
    (format de contenu/ : commentaire meta JSON puis HTML ; sommaire .toc ; tableau ; FAQ ; mention « indicatif » ;
    title SEO ≤ 65 caractères, description ≤ 145). Prends modèle sur contenu/fr/excursions-depuis-marrakech.html.
    - Vérifie chaque fait (WebSearch : sources officielles ou plusieurs sources concordantes) ; dans le doute, formule
@@ -31,6 +45,10 @@ Dossier du projet : /srv/agent/workspace/clients/perso/sujets/moveon (fais `cd` 
      regarde la vignette avant de choisir (paysage, nette, sans texte ni personne au premier plan), puis
      `python3 -I outils/photo.py <clé> "<titre exact>" "<alt FR>" "<alt EN>"`. Si l'outil échoue, ne mets pas
      de clé : le générateur prend une photo par défaut. Jamais d'image hors de cet outil (droits d'auteur).
+   - Sources : lie les sources officielles utilisées dans le texte (pas seulement les citer).
+3c. Les jours sans nouvel article : enrichis UN article existant qui n'a pas encore de vécu (contenu/sources/<slug>.json
+   absent ou vide), avec la même méthode 3a, et mets à jour sa date « updated ». Un brouillon de contenu/brouillons/
+   dont le vécu de l'auteur est arrivé dans contenu/vecu/ passe en priorité : vérifie, déplace dans contenu/fr et en, publie.
 4. Depuis le dossier du projet (`cd` dans une commande séparée), lance EXACTEMENT, seules et sans `&&`, `;` ni `cd` devant
    (ces formes sont pré-autorisées, toute autre peut être refusée) : `python3 -I outils/build.py`, contrôle du HTML
    généré, `python3 -I outils/synchro.py` (« git pull » : un autre agent publie aussi sur le dépôt GitHub, qui fait

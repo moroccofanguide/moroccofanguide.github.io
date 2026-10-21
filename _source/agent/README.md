@@ -16,6 +16,11 @@ le relancer après une régénération par build.py n'est pas utile et peut cré
   JSON-LD Article + FAQPage tiré de la section `id="faq"`, cartes d'accueil, pied de page, sitemap).
 - `static/` : fichiers copiés tels quels (`llms.txt`, `robots.txt`, `CNAME`, `404.html`, `style.css`, images, polices).
 - `outils/synchro.py`, `outils/publier.py` : outils de l'agent quotidien (le jeton n'est pas dans le dépôt).
+- `outils/regles-seo.md` : règles SEO communes à tous les agents (Google : guide SEO, règles anti-spam, contenu IA,
+  sources de vécu, contrôle mensuel des mises à jour de Google).
+- `outils/sources_vecu.py` : chercher, enregistrer et vérifier les sources de vécu d'un article
+  (`contenu/sources/<slug>.json`). Apport de l'auteur : `contenu/vecu/<slug>.md`. Brouillons : `contenu/brouillons/`.
+- Type de page `page` (À propos, Confidentialité) : sans date ni photo, liée depuis le pied de page.
 
 ## Méthode commune
 1. Récupérer le dépôt (`git pull`).
