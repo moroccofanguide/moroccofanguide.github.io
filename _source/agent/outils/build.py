@@ -25,6 +25,7 @@ DRIVE = '''  <script nowprocket data-noptimize="1" data-cfasync="false" data-wpf
         document.head.appendChild(script);
     })();
   </script>
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="boM5zPeFGd5q5gQU6rGUxA" async></script>
 '''
 T = {
     'fr': {
