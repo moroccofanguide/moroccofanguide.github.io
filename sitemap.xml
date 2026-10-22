@@ -31,8 +31,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/day-trips-from-marrakech/"/>
   </url>
   <url>
+    <loc>https://moroccofanguide.com/jardin-majorelle/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/jardin-majorelle/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/majorelle-garden/"/>
+  </url>
+  <url>
     <loc>https://moroccofanguide.com/jemaa-el-fna/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/jemaa-el-fna/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/jemaa-el-fna/"/>
   </url>
@@ -122,9 +128,15 @@
   </url>
   <url>
     <loc>https://moroccofanguide.com/en/jemaa-el-fna/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/jemaa-el-fna/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/jemaa-el-fna/"/>
+  </url>
+  <url>
+    <loc>https://moroccofanguide.com/en/majorelle-garden/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/jardin-majorelle/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/majorelle-garden/"/>
   </url>
   <url>
     <loc>https://moroccofanguide.com/en/marrakech-souks/</loc>
