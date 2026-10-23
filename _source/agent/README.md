@@ -20,6 +20,10 @@ le relancer après une régénération par build.py n'est pas utile et peut cré
   sources de vécu, contrôle mensuel des mises à jour de Google).
 - `outils/sources_vecu.py` : chercher, enregistrer et vérifier les sources de vécu d'un article
   (`contenu/sources/<slug>.json`). Apport de l'auteur : `contenu/vecu/<slug>.md`. Brouillons : `contenu/brouillons/`.
+- `outils/skills/<nom>/SKILL.md` : skills pour agents IA ; build.py les publie en archive `.tar.gz` reproductible dans
+  `/.well-known/agent-skills/` (+ `index.json` et `/.well-known/ai-catalog.json`). `static/_config.yml` fait inclure
+  `.well-known` par Jekyll. Jamais de SKILL.md à en-tête YAML dans `static/` (Jekyll le transformerait en HTML).
+- Jamais publiés ici : `outils/routine-quotidienne.md`, `contenu/vecu/`, `contenu/brouillons/`, fichiers `.bak` (synchro.py).
 - Type de page `page` (À propos, Confidentialité) : sans date ni photo, liée depuis le pied de page.
 
 ## Méthode commune

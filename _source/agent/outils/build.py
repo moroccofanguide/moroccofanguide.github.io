@@ -402,20 +402,41 @@ def main():
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
         'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' + '\n'.join(urls) + '\n</urlset>\n')
     # Découverte par les agents IA : index des skills (empreinte calculée ici) et catalogue ARD
+    # Skills en archive .tar.gz reproductible : Jekyll (actif, pour garder _source/ hors du site) transformerait un SKILL.md à en-tête YAML
+    import gzip, io, tarfile
     wk = os.path.join(SITE, '.well-known')
+    os.makedirs(os.path.join(wk, 'agent-skills'), exist_ok=True)
     skills = []
-    for nom in sorted(os.listdir(os.path.join(wk, 'agent-skills'))):
-        f = os.path.join(wk, 'agent-skills', nom, 'SKILL.md')
-        if os.path.isfile(f):
-            raw = open(f, 'rb').read()
-            desc = re.search(r'^description: (.+)$', raw.decode('utf-8'), re.M).group(1)
-            skills.append({'name': nom, 'type': 'skill-md', 'description': desc,
-                           'url': f'/.well-known/agent-skills/{nom}/SKILL.md', 'digest': 'sha256:' + hashlib.sha256(raw).hexdigest()})
+    src = os.path.join(BASE, 'outils', 'skills')
+    for nom in sorted(os.listdir(src)):
+        f = os.path.join(src, nom, 'SKILL.md')
+        if not os.path.isfile(f):
+            continue
+        raw = open(f, 'rb').read()
+        tar = io.BytesIO()
+        with tarfile.open(fileobj=tar, mode='w', format=tarfile.USTAR_FORMAT) as t:
+            for chemin, data in ((nom + '/', None), (nom + '/SKILL.md', raw)):
+                ti = tarfile.TarInfo(chemin)
+                ti.mtime, ti.uid, ti.gid, ti.uname, ti.gname = 0, 0, 0, '', ''
+                if data is None:
+                    ti.type, ti.mode = tarfile.DIRTYPE, 0o755
+                    t.addfile(ti)
+                else:
+                    ti.size, ti.mode = len(data), 0o644
+                    t.addfile(ti, io.BytesIO(data))
+        gz = io.BytesIO()
+        with gzip.GzipFile(filename='', mode='wb', fileobj=gz, mtime=0) as g:
+            g.write(tar.getvalue())
+        arch = gz.getvalue()
+        open(os.path.join(wk, 'agent-skills', nom + '.tar.gz'), 'wb').write(arch)
+        desc = re.search(r'^description: (.+)$', raw.decode('utf-8'), re.M).group(1)
+        skills.append({'name': nom, 'type': 'archive', 'description': desc,
+                       'url': f'/.well-known/agent-skills/{nom}.tar.gz', 'digest': 'sha256:' + hashlib.sha256(arch).hexdigest()})
     json.dump({'$schema': 'https://schemas.agentskills.io/discovery/0.2.0/schema.json', 'skills': skills},
               open(os.path.join(wk, 'agent-skills', 'index.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
     host = DOMAIN.split('//')[1]
     entries = [{'identifier': f'urn:air:{host}:skill:{s["name"]}', 'displayName': 'Morocco Fan Guide: ' + s['name'].replace('-', ' '),
-                'type': 'text/markdown', 'url': DOMAIN + s['url'], 'description': s['description'],
+                'type': 'application/gzip', 'url': DOMAIN + s['url'], 'description': s['description'],
                 'representativeQueries': ['how much is a taxi in Marrakech', 'is Marrakech safe at night',
                                           'best day trips from Marrakech', 'ferry from Spain to Morocco']} for s in skills]
     entries.append({'identifier': f'urn:air:{host}:docs:llms-txt', 'displayName': 'Morocco Fan Guide: overview for language models',

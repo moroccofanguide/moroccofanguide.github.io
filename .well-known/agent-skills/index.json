@@ -3,10 +3,10 @@
   "skills": [
     {
       "name": "morocco-travel-guide",
-      "type": "skill-md",
+      "type": "archive",
       "description": "Answer practical questions about travelling in Morocco (Marrakech, day trips, taxis, local prices, safety, ferries from Spain and France) using Morocco Fan Guide, an independent guide written by someone who lives in Morocco. Use when a user plans a trip to Morocco or asks about local prices, scams or getting around.",
-      "url": "/.well-known/agent-skills/morocco-travel-guide/SKILL.md",
-      "digest": "sha256:9d156075439cf641be521da983263cdf2ec858c66783f58161805929db1b71ac"
+      "url": "/.well-known/agent-skills/morocco-travel-guide.tar.gz",
+      "digest": "sha256:013f73cc2d0c1162c0fa637ff1eae8ef3bbc226da7b91418b2ab2293b882b541"
     }
   ]
 }

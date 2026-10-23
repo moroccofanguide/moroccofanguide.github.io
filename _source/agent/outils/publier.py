@@ -54,8 +54,14 @@ bloque = sorted(p for p in ailleurs if p in local and remote.get(p) != hashlib.s
 if bloque:
     raise SystemExit('PUBLICATION REFUSÉE : modifié dans le dépôt par ailleurs et pas reproduit ici '
                      '(lancer outils/synchro.py) : ' + ', '.join(bloque))
+# Supprimés du dépôt s'ils ne sont plus produits ici : notre source et les fichiers de découverte (jamais les pages)
+A_NOUS = ('_source/agent/', '.well-known/', '.nojekyll')
 for path in sorted(set(remote) - set(local)):
-    print('présent seulement dans le dépôt (conservé) :', path)
+    if path.startswith(A_NOUS):
+        entries.append({'path': path, 'mode': '100644', 'type': 'blob', 'sha': None})
+        changes.append('supprimé ' + path)
+    else:
+        print('présent seulement dans le dépôt (conservé) :', path)
 
 if not entries:
     print('rien à publier')

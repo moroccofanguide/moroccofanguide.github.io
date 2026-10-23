@@ -26,7 +26,9 @@ PROJET = os.path.join(HERE, '..')
 SOURCE = '_source/agent/'
 SOURCE_DIRS = ['contenu', 'outils', 'static']
 SOURCE_FILES = ['plan-editorial.md', 'README.md']
-SOURCE_SKIP = ('static/img/', 'static/fonts/', 'outils/__pycache__/', 'outils/.base-sha')
+# Jamais publiés (dépôt public) : consignes internes de l'agent, notes de vécu de l'auteur, brouillons, sauvegardes
+SOURCE_SKIP = ('static/img/', 'static/fonts/', 'outils/__pycache__/', 'outils/.base-sha',
+               'outils/routine-quotidienne.md', 'contenu/vecu/', 'contenu/brouillons/')
 
 
 def api(path):
@@ -64,7 +66,7 @@ def local_data():
     rel = [os.path.relpath(os.path.join(d, f), PROJET) for top in SOURCE_DIRS
            for d, _, fs in os.walk(os.path.join(PROJET, top)) for f in fs] + SOURCE_FILES
     for r in sorted(rel):
-        if not r.startswith(SOURCE_SKIP) and not r.endswith('.pyc'):
+        if not r.startswith(SOURCE_SKIP) and not r.endswith('.pyc') and '.bak' not in r:
             out[SOURCE + r] = open(os.path.join(PROJET, r), 'rb').read()
     return out
 
