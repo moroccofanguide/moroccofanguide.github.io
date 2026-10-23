@@ -9,6 +9,7 @@ Dans le corps : [[img:clé]] insère une photo, [[articles]] la liste des articl
 Usage : python3 -I outils/build.py
 """
 import hashlib, html, json, os, re, shutil
+from html.parser import HTMLParser
 
 BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 SITE = os.path.join(BASE, 'site')
@@ -157,6 +158,7 @@ def render(p, pages):
     body = re.sub(r'\[\[img:([a-z0-9-]+)(?:\|([a-z -]+))?\]\]',
                   lambda m: img(m.group(1), lang, used, m.group(2) or '', big='big' in (m.group(2) or ''),
                                 eager='eager' in (m.group(2) or '')), body)
+    p['md'] = markdown(p, body)
     hero = IMAGES[p['image']]
     ld = {'@context': 'https://schema.org', 'inLanguage': lang, 'url': url, 'description': p['description'],
           'image': DOMAIN + hero['file']}
@@ -203,6 +205,7 @@ def render(p, pages):
 {DRIVE}  <title>{e(p.get('seo_title', p['title']))}</title>
   <meta name="description" content="{e(p['description'])}">
   <link rel="canonical" href="{url}">
+  <link rel="alternate" type="text/markdown" href="{url}index.md">
   <link rel="alternate" hreflang="fr" href="{DOMAIN}{fr_path}">
   <link rel="alternate" hreflang="en" href="{DOMAIN}{en_path}">
   <link rel="alternate" hreflang="x-default" href="{DOMAIN}{fr_path}">
@@ -246,6 +249,113 @@ def render(p, pages):
 '''
 
 
+class Markdown(HTMLParser):
+    """Version Markdown d'un corps de page, servie aux agents qui envoient Accept: text/markdown (Worker Cloudflare)."""
+    SKIP = {'script', 'style', 'input', 'svg'}
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.out, self.lists, self.skip, self.href, self.row, self.cell, self.head_row = [], [], 0, [], None, None, False
+
+    def w(self, s):
+        if self.cell is not None:
+            self.cell.append(s)
+        else:
+            self.out.append(s)
+
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        if tag in self.SKIP:
+            self.skip += 1
+        elif self.skip:
+            return
+        elif tag in ('h1', 'h2', 'h3', 'h4'):
+            self.w('\n\n' + '#' * int(tag[1]) + ' ')
+        elif tag in ('p', 'div', 'section', 'aside', 'fieldset', 'figure', 'nav'):
+            self.w('\n\n')
+        elif tag == 'br':
+            self.w('  \n')
+        elif tag in ('strong', 'b', 'legend'):
+            self.w('**')
+        elif tag in ('em', 'i'):
+            self.w('*')
+        elif tag in ('ul', 'ol'):
+            self.lists.append([tag, 0])
+            self.w('\n')
+        elif tag == 'li':
+            l = self.lists[-1] if self.lists else ['ul', 0]
+            l[1] += 1
+            self.w('\n' + '  ' * (len(self.lists) - 1) + (f'{l[1]}. ' if l[0] == 'ol' else '- '))
+        elif tag == 'a':
+            h = a.get('href', '')
+            self.href.append(DOMAIN + h if h.startswith('/') else h)
+            self.w('[')
+        elif tag == 'img':
+            src = a.get('src', '')
+            self.w(f'![{a.get("alt", "")}]({DOMAIN + src if src.startswith("/") else src})')
+        elif tag == 'table':
+            self.w('\n\n')
+        elif tag == 'tr':
+            self.row, self.head_row = [], False
+        elif tag in ('td', 'th'):
+            self.cell = []
+            self.head_row |= tag == 'th'
+        elif tag == 'figcaption':
+            self.w('\n\n*')
+
+    def handle_endtag(self, tag):
+        if tag in self.SKIP:
+            self.skip = max(0, self.skip - 1)
+        elif self.skip:
+            return
+        elif tag in ('strong', 'b', 'legend'):
+            self.w('**')
+        elif tag in ('em', 'i'):
+            self.w('*')
+        elif tag in ('ul', 'ol'):
+            if self.lists:
+                self.lists.pop()
+            self.w('\n\n')
+        elif tag == 'a':
+            self.w(f']({self.href.pop() if self.href else ""})')
+        elif tag in ('td', 'th') and self.cell is not None:
+            self.row.append(' '.join(''.join(self.cell).split()).replace('|', '\\|'))
+            self.cell = None
+        elif tag == 'tr' and self.row is not None:
+            self.out.append('| ' + ' | '.join(self.row) + ' |\n')
+            if self.head_row:
+                self.out.append('|' + ' --- |' * len(self.row) + '\n')
+            self.row = None
+        elif tag == 'figcaption':
+            self.w('*')
+        elif tag in ('p', 'h1', 'h2', 'h3', 'h4', 'table'):
+            self.w('\n\n')
+
+    def handle_data(self, data):
+        if self.skip or (self.row is not None and self.cell is None):
+            return
+        self.w(re.sub(r'\s+', ' ', data))
+
+    def text(self):
+        md = re.sub(r'[ \t]+\n', '\n', ''.join(self.out))
+        md = re.sub(r'\n +(?=[^-\d ])', '\n', md)
+        return re.sub(r'\n{3,}', '\n\n', md).strip() + '\n'
+
+
+def markdown(p, body):
+    """Fichier index.md d'une page : en-tête (titre, URL, date, description) puis le corps converti."""
+    t = T[p['lang']]
+    m = Markdown()
+    m.feed(body)
+    m.close()
+    head = f'# {p["title"]}\n\n> {p["description"]}\n\n'
+    meta = [f'URL: {DOMAIN}{p["path"]}']
+    if p['type'] != 'home':
+        meta.append(f'{"Mis à jour" if p["lang"] == "fr" else "Updated"}: {p["updated"]}')
+    md = head + '  \n'.join(meta) + '\n\n' + m.text()
+    return md + f'\n---\n\n{re.sub("<[^>]+>", "", t["aff"])}\n'
+
+
 def main():
     pages = load()
     paths = {p['path'] for p in pages}
@@ -259,6 +369,7 @@ def main():
         out = os.path.join(SITE, p['path'].strip('/'), 'index.html')
         os.makedirs(os.path.dirname(out), exist_ok=True)
         open(out, 'w', encoding='utf-8').write(render(p, pages))
+        open(out[:-len('html')] + 'md', 'w', encoding='utf-8').write(p['md'])
     urls = []
     for p in pages:
         fr_path, en_path = (p['path'], p['alt']) if p['lang'] == 'fr' else (p['alt'], p['path'])
