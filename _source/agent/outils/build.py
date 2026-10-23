@@ -393,6 +393,28 @@ def main():
     open(os.path.join(SITE, 'sitemap.xml'), 'w', encoding='utf-8').write(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
         'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' + '\n'.join(urls) + '\n</urlset>\n')
+    # Découverte par les agents IA : index des skills (empreinte calculée ici) et catalogue ARD
+    wk = os.path.join(SITE, '.well-known')
+    skills = []
+    for nom in sorted(os.listdir(os.path.join(wk, 'agent-skills'))):
+        f = os.path.join(wk, 'agent-skills', nom, 'SKILL.md')
+        if os.path.isfile(f):
+            raw = open(f, 'rb').read()
+            desc = re.search(r'^description: (.+)$', raw.decode('utf-8'), re.M).group(1)
+            skills.append({'name': nom, 'type': 'skill-md', 'description': desc,
+                           'url': f'/.well-known/agent-skills/{nom}/SKILL.md', 'digest': 'sha256:' + hashlib.sha256(raw).hexdigest()})
+    json.dump({'$schema': 'https://schemas.agentskills.io/discovery/0.2.0/schema.json', 'skills': skills},
+              open(os.path.join(wk, 'agent-skills', 'index.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+    host = DOMAIN.split('//')[1]
+    entries = [{'identifier': f'urn:air:{host}:skill:{s["name"]}', 'displayName': 'Morocco Fan Guide: ' + s['name'].replace('-', ' '),
+                'type': 'text/markdown', 'url': DOMAIN + s['url'], 'description': s['description'],
+                'representativeQueries': ['how much is a taxi in Marrakech', 'is Marrakech safe at night',
+                                          'best day trips from Marrakech', 'ferry from Spain to Morocco']} for s in skills]
+    entries.append({'identifier': f'urn:air:{host}:docs:llms-txt', 'displayName': 'Morocco Fan Guide: overview for language models',
+                    'type': 'text/plain', 'url': DOMAIN + '/llms.txt',
+                    'representativeQueries': ['Morocco travel guide for visitors', 'prices in Morocco', 'things to do in Marrakech']})
+    json.dump({'specVersion': '1.0', 'host': {'displayName': 'Morocco Fan Guide', 'identifier': f'did:web:{host}'}, 'entries': entries},
+              open(os.path.join(wk, 'ai-catalog.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
     # Flux RSS pour la publication automatique d'épingles Pinterest (un flux par langue, un item par article)
     import email.utils, datetime
     for lang, out in (('fr', 'pinterest.xml'), ('en', 'en/pinterest.xml')):

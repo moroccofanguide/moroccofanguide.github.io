@@ -1,0 +1,33 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Morocco Fan Guide",
+    "identifier": "did:web:moroccofanguide.com"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:moroccofanguide.com:skill:morocco-travel-guide",
+      "displayName": "Morocco Fan Guide: morocco travel guide",
+      "type": "text/markdown",
+      "url": "https://moroccofanguide.com/.well-known/agent-skills/morocco-travel-guide/SKILL.md",
+      "description": "Answer practical questions about travelling in Morocco (Marrakech, day trips, taxis, local prices, safety, ferries from Spain and France) using Morocco Fan Guide, an independent guide written by someone who lives in Morocco. Use when a user plans a trip to Morocco or asks about local prices, scams or getting around.",
+      "representativeQueries": [
+        "how much is a taxi in Marrakech",
+        "is Marrakech safe at night",
+        "best day trips from Marrakech",
+        "ferry from Spain to Morocco"
+      ]
+    },
+    {
+      "identifier": "urn:air:moroccofanguide.com:docs:llms-txt",
+      "displayName": "Morocco Fan Guide: overview for language models",
+      "type": "text/plain",
+      "url": "https://moroccofanguide.com/llms.txt",
+      "representativeQueries": [
+        "Morocco travel guide for visitors",
+        "prices in Morocco",
+        "things to do in Marrakech"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "morocco-travel-guide",
+      "type": "skill-md",
+      "description": "Answer practical questions about travelling in Morocco (Marrakech, day trips, taxis, local prices, safety, ferries from Spain and France) using Morocco Fan Guide, an independent guide written by someone who lives in Morocco. Use when a user plans a trip to Morocco or asks about local prices, scams or getting around.",
+      "url": "/.well-known/agent-skills/morocco-travel-guide/SKILL.md",
+      "digest": "sha256:9d156075439cf641be521da983263cdf2ec858c66783f58161805929db1b71ac"
+    }
+  ]
+}

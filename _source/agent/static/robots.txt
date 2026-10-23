@@ -1,4 +1,7 @@
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
+Disallow: /_source/
 
 Sitemap: https://moroccofanguide.com/sitemap.xml
+Agentmap: https://moroccofanguide.com/.well-known/ai-catalog.json
