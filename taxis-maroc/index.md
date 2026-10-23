@@ -49,6 +49,64 @@ Répondez à trois questions et entrez le prix affiché ou annoncé : on vous di
 
 **Le compteur est-il allumé ?**
 
+Oui Non, le chauffeur annonce un prix
+
+**Quand ?**
+
+Journée Soir ou nuit
+
+**Quel trajet ?**
+
+Trajet habituel en ville (ex. gare → Al Massira) Long trajet, environ 4 km Très long trajet, plus de 8 km
+
+**Prix affiché ou demandé**
+
+DH
+
+Outil indicatif fondé sur les repères d'un habitant à Marrakech. Le compteur fait foi, et les tarifs varient selon les villes.
+
+## Un prix « pas cher » peut être une arnaque
+
+Ne jugez pas le tarif avec vos repères européens. Au compteur, une course coûte de l'ordre de dix fois moins cher qu'en Europe, parce que le pouvoir d'achat marocain n'a rien à voir : une baguette dans une boulangerie moderne coûte entre 1 et 2 DH, soit 0,10 à 0,20 €. Un forfait qui vous paraît raisonnable comparé à Paris ou Bruxelles peut donc valoir plusieurs fois le prix réel. Plus de repères dans notre guide des [prix au Maroc](https://moroccofanguide.com/prix-maroc/).
+
+## Grands taxis : prix fixe par trajet
+
+Les **grands taxis** fonctionnent autrement : ils relient des villes entre elles ou des quartiers éloignés, à un **prix fixe par trajet**, souvent partagé entre plusieurs passagers. Ils partent en général quand la voiture est pleine. Si vous voulez partir tout de suite ou voyager plus confortablement, vous pouvez payer les places restantes. Demandez le prix de la place à la station ou à votre hébergement avant de monter.
+
+## Applications VTC type inDrive
+
+Au Maroc, les applications de VTC comme **inDrive** sont très répandues, y compris chez les habitants, et beaucoup de chauffeurs se montrent aimables. Mais il faut le savoir : le transport de passagers sans autorisation est interdit, comme l'a rappelé le ministère de l'Intérieur en juillet 2025 ([Finances News](https://www.fnh.ma/article/actualite-economique/vtc-maroc-transport-application)). Les sanctions annoncées visent les chauffeurs, avec saisie possible du véhicule, mais un contrôle peut interrompre votre course.
+
+Si vous l'utilisez quand même :
+
+- vérifiez que la voiture et la plaque correspondent exactement à l'application, et ne montez pas dans le cas contraire ;
+- partagez votre trajet avec un proche ;
+- en cas de doute, préférez un petit taxi officiel.
+
+## À pied : attention à la circulation
+
+Pour un piéton, le danger le plus concret est la circulation. Dans les grandes villes, beaucoup de deux-roues roulent vite et frôlent les passants, jusque dans les ruelles des médinas. Gardez vos distances, regardez des deux côtés avant de traverser et serrez le mur quand une moto arrive. Et si un conducteur s'emporte, restez très calme et ne répondez pas. Pour vos soirées à Marrakech, voir aussi [Marrakech la nuit : est-ce sûr ?](https://moroccofanguide.com/marrakech-la-nuit-securite/)
+
+## Questions fréquentes
+
+### Faut-il négocier le prix d'un petit taxi au Maroc ?
+
+Non. Exigez le compteur et ne demandez jamais de forfait : un prix annoncé à l'avance est presque toujours bien plus cher. Si le chauffeur refuse le compteur, prenez un autre taxi.
+
+### Quelle est la différence entre petit et grand taxi ?
+
+Le petit taxi roule au compteur à l'intérieur d'une ville. Le grand taxi relie des villes ou des quartiers éloignés à un prix fixe par trajet, souvent partagé entre plusieurs passagers.
+
+### inDrive est-il légal au Maroc ?
+
+Le transport de passagers sans autorisation est interdit, et les sanctions visent les chauffeurs. L'application reste très utilisée ; si vous la choisissez, vérifiez que la voiture et la plaque correspondent à l'application.
+
+### Combien coûte un taxi au Maroc ?
+
+Au compteur, un long trajet d'environ 4 km en ville coûte 20 à 30 DH, et un trajet de plus de 30 DH est inhabituellement long. Le soir, le tarif de nuit ajoute 50 %. Fiez-vous au compteur, pas à vos repères européens.
+
+Cet article reflète l'expérience d'un habitant du Maroc au moment de sa rédaction. Les règles et pratiques peuvent varier selon les villes et évoluer.
+
 ---
 
 Certains liens peuvent être des liens affiliés : si vous réservez par leur intermédiaire, nous pouvons recevoir une commission, sans surcoût pour vous.

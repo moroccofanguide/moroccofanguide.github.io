@@ -49,6 +49,64 @@ Answer three questions and enter the fare shown or quoted: we tell you whether i
 
 **Is the meter on?**
 
+Yes No, the driver quotes a price
+
+**When?**
+
+Daytime Evening or night
+
+**What kind of trip?**
+
+Usual trip in town (e.g. station → Al Massira) Long trip, about 4 km Very long trip, over 8 km
+
+**Fare shown or quoted**
+
+DH
+
+Indicative tool based on a local's benchmarks in Marrakech. The meter is what counts, and fares vary between cities.
+
+## A "cheap" price can still be a scam
+
+Don't judge the fare by European standards. On the meter, a ride costs roughly ten times less than in Europe, because Moroccan purchasing power is nowhere near European levels: a baguette in a modern bakery costs between 1 and 2 DH, about €0.10 to €0.20. A flat fare that seems reasonable compared with London or Paris can be several times the real price. More benchmarks in our guide to [prices in Morocco](https://moroccofanguide.com/en/morocco-prices/).
+
+## Grands taxis: fixed price per route
+
+**Grands taxis** work differently: they connect cities or distant districts at a **fixed price per route**, often shared between several passengers. They usually leave once the car is full. If you want to leave straight away or travel more comfortably, you can pay for the remaining seats. Ask the price per seat at the taxi rank or at your accommodation before getting in.
+
+## Ride-hailing apps like inDrive
+
+Ride-hailing apps such as **inDrive** are widely used in Morocco, including by locals, and many drivers are friendly. But be aware: carrying passengers without authorisation is prohibited, as the Ministry of the Interior reiterated in July 2025 ([Finances News](https://www.fnh.ma/article/actualite-economique/vtc-maroc-transport-application)). The announced penalties target drivers, including possible vehicle seizure, but a police check can cut your ride short.
+
+If you use it anyway:
+
+- check that the car and plate exactly match the app, and don't get in if they don't;
+- share your trip with someone you trust;
+- if in doubt, choose an official petit taxi.
+
+## On foot: mind the traffic
+
+For a pedestrian, the most concrete danger is traffic. In big cities, many scooters ride fast and brush past people, even in medina lanes. Keep your distance, look both ways before crossing and step against the wall when a scooter comes through. And if a driver loses their temper, stay very calm and don't answer back. For evenings in Marrakech, see also [is Marrakech safe at night?](https://moroccofanguide.com/en/is-marrakech-safe-at-night/)
+
+## Frequently asked questions
+
+### Should I negotiate the fare of a petit taxi in Morocco?
+
+No. Insist on the meter and never agree a flat fare: a price quoted in advance is almost always much higher. If the driver refuses the meter, take another taxi.
+
+### What is the difference between a petit taxi and a grand taxi?
+
+A petit taxi runs on the meter within a city. A grand taxi connects cities or distant districts at a fixed price per route, often shared between several passengers.
+
+### Is inDrive legal in Morocco?
+
+Carrying passengers without authorisation is prohibited, and the penalties target drivers. The app is still widely used; if you choose it, check that the car and plate match the app.
+
+### How much does a taxi cost in Morocco?
+
+On the meter, a long ride of around 4 km in town costs 20 to 30 DH, and anything over 30 DH means an unusually long trip. In the evening, the night rate adds 50%. Trust the meter, not your European reference points.
+
+This article reflects the experience of someone who lives in Morocco at the time of writing. Rules and practices can vary between cities and change over time.
+
 ---
 
 Some links may be affiliate links: if you book through them, we may earn a commission at no extra cost to you.

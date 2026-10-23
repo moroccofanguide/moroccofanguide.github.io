@@ -251,11 +251,12 @@ def render(p, pages):
 
 class Markdown(HTMLParser):
     """Version Markdown d'un corps de page, servie aux agents qui envoient Accept: text/markdown (Worker Cloudflare)."""
-    SKIP = {'script', 'style', 'input', 'svg'}
+    SKIP = {'script', 'style', 'svg'}
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.out, self.lists, self.skip, self.href, self.row, self.cell, self.head_row = [], [], 0, [], None, None, False
+        self.pre = False
 
     def w(self, s):
         if self.cell is not None:
@@ -302,6 +303,11 @@ class Markdown(HTMLParser):
             self.head_row |= tag == 'th'
         elif tag == 'figcaption':
             self.w('\n\n*')
+        elif tag == 'pre':
+            self.pre = True
+            self.w('\n\n```\n')
+        elif tag == 'code' and not self.pre:
+            self.w('`')
 
     def handle_endtag(self, tag):
         if tag in self.SKIP:
@@ -328,13 +334,18 @@ class Markdown(HTMLParser):
             self.row = None
         elif tag == 'figcaption':
             self.w('*')
+        elif tag == 'pre':
+            self.pre = False
+            self.w('\n```\n\n')
+        elif tag == 'code' and not self.pre:
+            self.w('`')
         elif tag in ('p', 'h1', 'h2', 'h3', 'h4', 'table'):
             self.w('\n\n')
 
     def handle_data(self, data):
         if self.skip or (self.row is not None and self.cell is None):
             return
-        self.w(re.sub(r'\s+', ' ', data))
+        self.w(data.strip('\n') if self.pre else re.sub(r'\s+', ' ', data))
 
     def text(self):
         md = re.sub(r'[ \t]+\n', '\n', ''.join(self.out))
