@@ -143,6 +143,14 @@ def cards(p, pages, used):
 CSS_V = hashlib.sha256(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'static', 'style.css'), 'rb').read()).hexdigest()[:8]
 
 
+def webmcp(pages):
+    """Outils WebMCP de l'accueil (outils/webmcp.js) : lister les guides et lire un guide en Markdown."""
+    guides = [{'title': q.get('seo_title', q['title']), 'url': DOMAIN + q['path'], 'lang': q['lang'], 'topic': q.get('crumb', ''),
+               'description': q['description'], 'updated': q['updated']} for q in by_date(x for x in pages if x['type'] == 'article')]
+    js = open(os.path.join(BASE, 'outils', 'webmcp.js'), encoding='utf-8').read()
+    return '  <script>' + js.replace('__GUIDES__', json.dumps(guides, ensure_ascii=False).replace('</', '<\\/')) + '</script>\n'
+
+
 def render(p, pages):
     t = T[p['lang']]
     lang = p['lang']
@@ -244,7 +252,7 @@ def render(p, pages):
     <div class="legal"><div class="wrap">{t['indep']}</div></div>
   </footer>
   <script>(function(){{var b=document.querySelector('.menu-btn'),n=document.getElementById('nav');document.documentElement.classList.add('js');b.addEventListener('click',function(){{var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)}})}})();</script>
-</body>
+{webmcp(pages) if p['type'] == 'home' else ''}</body>
 </html>
 '''
 
