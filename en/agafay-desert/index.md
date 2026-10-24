@@ -3,7 +3,7 @@
 > Agafay from Marrakech: getting there, quad, buggy and camel rides, dinner in a tent, desert camps, best season and booking tips.
 
 URL: https://moroccofanguide.com/en/agafay-desert/  
-Updated: 2026-10-17
+Updated: 2026-10-24
 
 Less than an hour from Marrakech, the Agafay desert is the easiest way to get a taste of the desert during a city break. There are no big sand dunes here, but a stony landscape of ochre hills facing the High Atlas peaks, often snow-capped in winter. Here is how to get there, which activities to choose and what to know before booking an evening or a night in a desert camp. For other outings, see our [day trips from Marrakech](https://moroccofanguide.com/en/day-trips-from-marrakech/).
 
@@ -61,12 +61,16 @@ To make more of it, stay the night. Agafay has many camps: simple, comfortable t
 
 **Tip:** torn between Agafay and the big dunes? Read our guide to [day trips from Marrakech](https://moroccofanguide.com/en/day-trips-from-marrakech/): Agafay fits into an evening, while Merzouga needs at least three days.
 
+### What travellers say
+
+Travellers report mixed experiences. [One visitor on a day trip](https://www.poshinprogress.com/blogs/why-the-agafay-desert-was-the-most-magical-part-of-our-marrakesh-trip) (about an hour's drive) combined a quad ride, a sunset camel ride and dinner at a camp facing the snow-capped Atlas, and wished they had stayed the night. [A couple on a group tour](https://passportandstamps.com/?p=25958) enjoyed the quad ride (around forty minutes on stony tracks) but found the dinner just average, with lots of dust and crowds in high season; they recommend a scarf, sunglasses, closed shoes and a light jacket, and advise against the camel ride. These are individual accounts, not a rule: quality varies a lot from one camp and operator to another.
+
 ## When to go and what to bring
 
 - **Spring and autumn:** the best seasons, with mild days. They are also the busiest times at the camps, so book early.
 - **Summer:** it gets very hot during the day; go in the late afternoon and evening.
 - **Winter:** days can be pleasant, but nights are cold; this is also when the Atlas is most often snow-capped.
-- **What to bring:** a jacket or sweater for the evening (temperatures drop after sunset, even in summer), a hat, sunscreen, sunglasses, water, and closed shoes for quad biking.
+- **What to bring:** a jacket or sweater for the evening (temperatures drop after sunset, even in summer), a hat, sunscreen, sunglasses, a scarf against the dust, water, and closed shoes for quad biking.
 
 ## Booking well
 

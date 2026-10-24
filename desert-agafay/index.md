@@ -3,7 +3,7 @@
 > Agafay depuis Marrakech : accès, quad, buggy, dromadaire, dîner sous tente, nuit en camp, meilleure saison et conseils pour bien choisir.
 
 URL: https://moroccofanguide.com/desert-agafay/  
-Mis à jour: 2026-10-17
+Mis à jour: 2026-10-24
 
 À moins d'une heure de Marrakech, le désert d'Agafay est la façon la plus simple de goûter au désert pendant un séjour en ville. Pas de grandes dunes de sable ici, mais un paysage minéral de collines ocre, face aux sommets du Haut Atlas souvent enneigés en hiver. Voici comment y aller, quelles activités choisir et ce qu'il faut savoir avant de réserver une soirée ou une nuit en camp. Pour les autres sorties, voir aussi nos [excursions depuis Marrakech](https://moroccofanguide.com/excursions-depuis-marrakech/).
 
@@ -61,12 +61,16 @@ Pour aller plus loin, dormez sur place. Agafay compte de nombreux camps : tentes
 
 **Astuce :** si vous hésitez entre Agafay et les grandes dunes, lisez notre guide des [excursions depuis Marrakech](https://moroccofanguide.com/excursions-depuis-marrakech/) : Agafay tient dans une soirée, alors que Merzouga demande au moins trois jours.
 
+### Ce qu'en disent des voyageurs
+
+Des voyageurs rapportent des expériences contrastées. [Un récit d'excursion à la journée](https://www.poshinprogress.com/blogs/why-the-agafay-desert-was-the-most-magical-part-of-our-marrakesh-trip) (environ une heure de route) enchaîne quad, dromadaire au coucher du soleil et dîner dans un camp face à l'Atlas enneigé, avec le regret de ne pas y avoir dormi. [Un couple parti en sortie de groupe](https://passportandstamps.com/?p=25958) a apprécié le quad (une quarantaine de minutes sur des pistes caillouteuses) mais a trouvé le dîner correct sans plus, beaucoup de poussière et de monde en haute saison ; ils conseillent un foulard, des lunettes, des chaussures fermées et une petite veste, et déconseillent la balade à dos de dromadaire. Ce sont des récits individuels, pas une règle : la qualité varie beaucoup d'un camp et d'un prestataire à l'autre.
+
 ## Quand y aller et que prévoir
 
 - **Printemps et automne :** les meilleures saisons, avec des journées douces. Ce sont aussi les périodes les plus demandées dans les camps : réservez tôt.
 - **Été :** la chaleur est forte en journée ; privilégiez la fin d'après-midi et la soirée.
 - **Hiver :** les journées peuvent être agréables, mais les nuits sont froides ; c'est aussi la saison où l'Atlas est le plus souvent enneigé.
-- **À emporter :** une veste ou un pull pour le soir (la température chute après le coucher du soleil, même en été), chapeau, crème solaire, lunettes, eau, et des chaussures fermées pour le quad.
+- **À emporter :** une veste ou un pull pour le soir (la température chute après le coucher du soleil, même en été), chapeau, crème solaire, lunettes, un foulard contre la poussière, eau, et des chaussures fermées pour le quad.
 
 ## Bien réserver
 

@@ -92,7 +92,7 @@ Marrakech
 
 Agafay from Marrakech: getting there, quad, buggy and camel rides, dinner in a tent, desert camps, best season and booking tips.
 
-17 October 2026 · 5 min read
+24 October 2026 · 5 min read
 
 [![Jemaa el-Fna square in Marrakech in the late afternoon](https://moroccofanguide.com/img/jemaa-500.jpg)](https://moroccofanguide.com/en/things-to-do-in-marrakech/)
 
