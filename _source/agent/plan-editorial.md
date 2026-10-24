@@ -23,7 +23,8 @@ avec intention de réservation ; les requêtes tenues par des opérateurs ou gro
 4. Chefchaouen : que faire, comment y aller depuis Tanger ou Fès — « chefchaouen » 40 500, KD 8 (SERP à vérifier).
 5. Aéroport de Marrakech-Ménara : rejoindre la ville (taxi, bus, transfert) — « aeroport marrakech » 8 100, KD 0.
 6. Coupe du monde 2030 au Maroc : villes, stades — « cdm maroc » 2 900 (sources officielles uniquement).
-7. Train Al Boraq ; Tanger Med ; assurance voiture ; Merzouga 3 jours ; Tanger, Agadir, Casablanca ; Opération Marhaba.
+7. Guides de villes de l'accueil (tuiles « Guide à venir » depuis le 24/10, demande d'abdallah) : Fès, Tanger, Casablanca, Rabat, Agadir — volumes à vérifier, une tuile devient cliquable dès que son guide est publié.
+8. Train Al Boraq ; Tanger Med ; assurance voiture ; Merzouga 3 jours ; Opération Marhaba.
 
 ## Idées à valider par les données avant d'écrire
 - Stades de la Coupe du monde 2030 au Maroc (« stade maroc cdm 2030 » 390/mois)

@@ -130,15 +130,13 @@ Six grandes villes au cœur du projet marocain, toutes reliées par le train ou 
 
 [![Le minaret de la Koutoubia au-dessus des toits de Marrakech](https://moroccofanguide.com/img/marrakech-500.jpg)**Marrakech**La ville la plus visitée du pays](https://moroccofanguide.com/que-faire-a-marrakech/)
 
-![Le minaret de la mosquée Hassan II à Casablanca, vu à travers une arche](https://moroccofanguide.com/img/casablanca-500.jpg)**Casablanca**Porte d'entrée aérienne et capitale économique
+![Le minaret de la mosquée Hassan II à Casablanca, vu à travers une arche](https://moroccofanguide.com/img/casablanca-500.jpg)**Casablanca**Porte d'entrée aérienne et capitale économique*Guide à venir*
 
-![La tour Hassan et ses colonnes à Rabat](https://moroccofanguide.com/img/rabat-500.jpg)**Rabat**La capitale, à une heure de Casablanca en train
+![La tour Hassan et ses colonnes à Rabat](https://moroccofanguide.com/img/rabat-500.jpg)**Rabat**La capitale, à une heure de Casablanca en train*Guide à venir* [![Vue aérienne du port de Tanger Ville et de la baie](https://moroccofanguide.com/img/tanger-500.jpg)**Tanger**Face à l'Espagne, reliée au sud par le TGV Al Boraq](https://moroccofanguide.com/traversee-bateau-espagne-maroc/)
 
-![Vue aérienne du port de Tanger Ville et de la baie](https://moroccofanguide.com/img/tanger-500.jpg)**Tanger**Face à l'Espagne, reliée au sud par le TGV Al Boraq
+![Les cuves de la tannerie de Fès](https://moroccofanguide.com/img/fes-500.jpg)**Fès**L'une des plus anciennes médinas du monde*Guide à venir*
 
-![Les cuves de la tannerie de Fès](https://moroccofanguide.com/img/fes-500.jpg)**Fès**L'une des plus anciennes médinas du monde
-
-![La plage d'Agadir au coucher du soleil](https://moroccofanguide.com/img/agadir-500.jpg)**Agadir**La station balnéaire de l'Atlantique
+![La plage d'Agadir au coucher du soleil](https://moroccofanguide.com/img/agadir-500.jpg)**Agadir**La station balnéaire de l'Atlantique*Guide à venir*
 
 La liste définitive des stades et le calendrier seront confirmés par les organisateurs ; nous mettons ce guide à jour à chaque annonce.
 

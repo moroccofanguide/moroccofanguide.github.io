@@ -98,6 +98,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 700; line-height: 1.2; colo
 .city strong { display: block; font-family: var(--serif); font-size: 1.25rem; }
 a.city:hover { color: #fff; }
 a.city:hover img { transform: scale(1.03); }
+.city .soon { display: block; margin-top: 4px; font-size: .75rem; font-style: normal; opacity: .8; }
 @media (max-width: 480px) { .city span { font-size: .78rem; padding: 30px 10px 10px; } .city strong { font-size: 1.05rem; } }
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
 .two-col p { margin: 14px 0 0; }

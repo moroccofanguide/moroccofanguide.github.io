@@ -130,15 +130,13 @@ Six major cities at the heart of Morocco's plans, all linked by rail or motorway
 
 [![The Koutoubia minaret above the rooftops of Marrakech](https://moroccofanguide.com/img/marrakech-500.jpg)**Marrakech**The most visited city in the country](https://moroccofanguide.com/en/things-to-do-in-marrakech/)
 
-![The minaret of the Hassan II Mosque in Casablanca, framed by an arch](https://moroccofanguide.com/img/casablanca-500.jpg)**Casablanca**Main air gateway and business capital
+![The minaret of the Hassan II Mosque in Casablanca, framed by an arch](https://moroccofanguide.com/img/casablanca-500.jpg)**Casablanca**Main air gateway and business capital*Guide coming soon*
 
-![Hassan Tower and its columns in Rabat](https://moroccofanguide.com/img/rabat-500.jpg)**Rabat**The capital, one hour from Casablanca by train
+![Hassan Tower and its columns in Rabat](https://moroccofanguide.com/img/rabat-500.jpg)**Rabat**The capital, one hour from Casablanca by train*Guide coming soon* [![Aerial view of Tangier city port and the bay](https://moroccofanguide.com/img/tanger-500.jpg)**Tangier**Facing Spain, linked south by the Al Boraq high-speed train](https://moroccofanguide.com/en/ferry-spain-morocco/)
 
-![Aerial view of Tangier city port and the bay](https://moroccofanguide.com/img/tanger-500.jpg)**Tangier**Facing Spain, linked south by the Al Boraq high-speed train
+![The dyeing vats of a tannery in Fez](https://moroccofanguide.com/img/fes-500.jpg)**Fes**One of the oldest medinas in the world*Guide coming soon*
 
-![The dyeing vats of a tannery in Fez](https://moroccofanguide.com/img/fes-500.jpg)**Fes**One of the oldest medinas in the world
-
-![Agadir beach at sunset](https://moroccofanguide.com/img/agadir-500.jpg)**Agadir**The Atlantic beach resort
+![Agadir beach at sunset](https://moroccofanguide.com/img/agadir-500.jpg)**Agadir**The Atlantic beach resort*Guide coming soon*
 
 The final list of stadiums and the match schedule will be confirmed by the organisers; we update this guide with every announcement.
 
