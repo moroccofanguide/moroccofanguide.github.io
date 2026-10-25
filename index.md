@@ -32,7 +32,7 @@ Marrakech
 
 Jemaa el-Fna heure par heure : conteurs, gnaoua, stands du soir, terrasses avec vue, arnaques à éviter et conseils pour en profiter sereinement.
 
-22 octobre 2026 · 6 min de lecture
+25 octobre 2026 · 6 min de lecture
 
 [![Lanternes en métal ciselé dans le souk Haddadine, médina de Marrakech](https://moroccofanguide.com/img/souk-lanternes-500.jpg)](https://moroccofanguide.com/souks-marrakech/)
 

@@ -32,7 +32,7 @@ Marrakech
 
 Jemaa el-Fna hour by hour: storytellers, Gnaoua music, night food stalls, rooftop views, common scams and tips to enjoy the square.
 
-22 October 2026 · 5 min read
+25 October 2026 · 6 min read
 
 [![Pierced metal lanterns in Souk Haddadine, Marrakech medina](https://moroccofanguide.com/img/souk-lanternes-500.jpg)](https://moroccofanguide.com/en/marrakech-souks/)
 

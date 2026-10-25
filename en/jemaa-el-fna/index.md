@@ -3,7 +3,7 @@
 > Jemaa el-Fna hour by hour: storytellers, Gnaoua music, night food stalls, rooftop views, common scams and tips to enjoy the square.
 
 URL: https://moroccofanguide.com/en/jemaa-el-fna/  
-Updated: 2026-10-22
+Updated: 2026-10-25
 
 You cannot visit Marrakech without passing through Jemaa el-Fna. The great square at the edge of the medina is not a monument: it is a live show that changes completely between morning and night. Here is what you will see, when to go, where to sit for the view and how to avoid the small scams. For the rest of the city, see our guide to [things to do in Marrakech](https://moroccofanguide.com/en/things-to-do-in-marrakech/).
 
@@ -66,6 +66,12 @@ To see the square from above, several cafés and restaurants around it have roof
 - **Pickpockets:** the evening crowd is their playground. Keep your phone and wallet in a front pocket or a closed bag.
 
 For everything about going out after dark, read our guide [is Marrakech safe at night?](https://moroccofanguide.com/en/is-marrakech-safe-at-night/)
+
+## What travellers say
+
+Recent traveller guides agree on two points: the crowds and paid photos. One describes thousands of visitors every night, grill smoke drifting over the square and pushy touts; it warns that a snake charmer who sees a photo taken without payment will demand money or ask you to delete it ([Anywhere We Roam guide](https://anywhereweroam.com/jemaa-el-fna/), updated March 2026). The other advises arriving in the mid to late afternoon, before the sunset crowd peaks, keeping small change in dirhams for photos and not expecting good food or service from the terrace restaurants ([Never Stop Traveling guide](https://www.neverstoptraveling.com/jemaa-el-fna-marrakesh), updated January 2026).
+
+The takeaway: agree on a price before any photo, or simply walk on, and arrive before the crowds. These are travellers' accounts, not our own visit.
 
 ## Around the square
 

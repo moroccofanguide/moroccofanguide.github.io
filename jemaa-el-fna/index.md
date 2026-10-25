@@ -3,7 +3,7 @@
 > Jemaa el-Fna heure par heure : conteurs, gnaoua, stands du soir, terrasses avec vue, arnaques à éviter et conseils pour en profiter sereinement.
 
 URL: https://moroccofanguide.com/jemaa-el-fna/  
-Mis à jour: 2026-10-22
+Mis à jour: 2026-10-25
 
 Impossible de visiter Marrakech sans passer par Jemaa el-Fna. La grande place à l'entrée de la médina n'a rien d'un monument : c'est un spectacle vivant, qui change complètement de visage entre le matin et la nuit. Voici ce qu'on y voit, à quelle heure y aller, où s'asseoir pour la vue et comment éviter les petites arnaques. Pour le reste de la ville, voir notre guide [que faire à Marrakech](https://moroccofanguide.com/que-faire-a-marrakech/).
 
@@ -66,6 +66,12 @@ Pour voir la place d'en haut, plusieurs cafés et restaurants qui la bordent ont
 - **Les pickpockets :** la foule du soir est leur terrain. Téléphone et portefeuille dans une poche avant ou un sac fermé.
 
 Pour tout savoir sur les sorties du soir, lisez notre guide [Marrakech la nuit : est-ce sûr ?](https://moroccofanguide.com/marrakech-la-nuit-securite/)
+
+## Ce qu'en disent des voyageurs
+
+Les guides récents de voyageurs se rejoignent sur deux points : la foule et les photos payantes. L'un décrit des milliers de visiteurs chaque soir, la fumée des grillades sur la place et des rabatteurs insistants ; il prévient qu'un charmeur de serpents qui voit une photo prise sans paiement réclame de l'argent ou demande de l'effacer ([guide Anywhere We Roam](https://anywhereweroam.com/jemaa-el-fna/), mis à jour en mars 2026). L'autre conseille de venir en milieu ou fin d'après-midi, avant le pic de foule du coucher du soleil, de garder de la monnaie en dirhams pour les photos et de ne pas attendre une cuisine ou un service de qualité depuis les terrasses ([guide Never Stop Traveling](https://www.neverstoptraveling.com/jemaa-el-fna-marrakesh), mis à jour en janvier 2026).
+
+Ce qu'on en retient : fixez le prix avant toute photo, ou passez votre chemin, et arrivez avant la foule. Ce sont des témoignages de voyageurs, pas notre propre visite.
 
 ## Autour de la place
 
