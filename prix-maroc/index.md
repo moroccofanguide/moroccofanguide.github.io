@@ -1,6 +1,6 @@
 # Prix au Maroc : combien coûtent thé, café, petit-déjeuner et taxi ?
 
-> Combien coûtent un thé, un café, un petit-déjeuner ou un taxi au Maroc ? Les prix locaux réels pour ne pas payer le prix touriste, par un habitant.
+> Combien coûte un café au Maroc ? 12 à 17 DH, un thé 8 à 15 DH, un petit taxi au compteur moins de 20 DH en ville : les prix locaux réels, par un habitant.
 
 URL: https://moroccofanguide.com/prix-maroc/  
 Mis à jour: 2026-10-17

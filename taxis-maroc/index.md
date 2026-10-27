@@ -1,6 +1,6 @@
 # Taxis au Maroc : petits taxis, grands taxis et applis VTC, le mode d'emploi
 
-> Taxis au Maroc : la règle du compteur, éviter le prix touriste, grands taxis à prix fixe et ce qu'il faut savoir sur inDrive, par un habitant du Maroc.
+> Taxis au Maroc : petit taxi au compteur (moins de 20 DH pour un court trajet, 20 à 30 DH pour 4 km), éviter le prix touriste, grands taxis et inDrive, par un habitant.
 
 URL: https://moroccofanguide.com/taxis-maroc/  
 Mis à jour: 2026-10-17

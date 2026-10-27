@@ -50,7 +50,7 @@ Getting around
 
 ### [Taxis in Morocco explained](https://moroccofanguide.com/en/taxis-in-morocco/)
 
-Taxis in Morocco: the meter rule, avoiding the tourist price, fixed-price grands taxis and what to know about inDrive, from someone who lives in Morocco.
+Taxis in Morocco: metered petit taxis (under 20 DH for a short ride, 20 to 30 DH for 4 km), avoiding the tourist price, grands taxis and inDrive, from a local.
 
 17 October 2026 · 6 min read
 
@@ -60,7 +60,7 @@ Travel tips
 
 ### [Prices in Morocco: a local's benchmarks](https://moroccofanguide.com/en/morocco-prices/)
 
-How much do tea, coffee, breakfast and taxis cost in Morocco? Real local prices so you don't pay the tourist price, from someone who lives there.
+How much does a coffee cost in Morocco? 12 to 17 DH, mint tea 8 to 15 DH, a metered petit taxi under 20 DH in town: real local prices, from someone who lives here.
 
 17 October 2026 · 3 min read
 
@@ -110,9 +110,9 @@ Getting to Morocco
 
 ### [Ferry to Morocco: every crossing](https://moroccofanguide.com/en/ferry-spain-morocco/)
 
-Ferry to Morocco from Spain (Tarifa, Algeciras, Motril, Almería) and Sète: crossing times, arrival ports, summer tips and documents.
+Ferry from Spain to Morocco: 1 h from Tarifa, 1 h 30 to 2 h from Algeciras, ticket prices on foot or by car, arrival ports, Sète crossings and summer tips.
 
-15 October 2026 · 4 min read
+27 October 2026 · 5 min read
 
 [![Camels in the Agafay desert with the Atlas mountains behind](https://moroccofanguide.com/img/agafay-500.jpg)](https://moroccofanguide.com/en/day-trips-from-marrakech/)
 

@@ -16,7 +16,7 @@ Volumes : OpenRush, France, octobre 2026 (confiance 0,7). Vérifier chaque fait 
 ## À écrire (ordre de priorité — revu le 2026-10-16 d'après les SERP Google FR mobile)
 Règle de priorité : d'abord les requêtes où de PETITS sites sont en tête (place prenable par un site neuf),
 avec intention de réservation ; les requêtes tenues par des opérateurs ou gros comparateurs viennent après.
-1. Quad et buggy à Marrakech (Agafay, palmeraie) — « quad marrakech » 1 900/mois.
+1. Quad et buggy à Marrakech (Agafay, palmeraie) — « quad marrakech » 1 900/mois. BROUILLON 2026-10-26. 2026-10-27 : 2 témoignages Agafay enregistrés (sources/quad-buggy-marrakech.json, vérification OK avec réserve). Publiable recentré sur le quad à Agafay, témoignages présentés comme tels ; Palmeraie et buggy seulement comme offres, sans prix ni avis (aucun témoignage). Vécu de l’auteur toujours demandé pour la mise à jour.
 2. Sète – Tanger en bateau : durée (39-48 h), ports, conseils — « sete tanger » / « sete tanger bateau » 5 400, KD 0
    (opérateurs en tête : viser les questions pratiques).
 3. Essaouira : que faire, y aller depuis Marrakech — « essaouira maroc » 9 900, KD 8.

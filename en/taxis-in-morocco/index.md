@@ -1,6 +1,6 @@
 # Taxis in Morocco: petit taxis, grands taxis and ride-hailing apps explained
 
-> Taxis in Morocco: the meter rule, avoiding the tourist price, fixed-price grands taxis and what to know about inDrive, from someone who lives in Morocco.
+> Taxis in Morocco: metered petit taxis (under 20 DH for a short ride, 20 to 30 DH for 4 km), avoiding the tourist price, grands taxis and inDrive, from a local.
 
 URL: https://moroccofanguide.com/en/taxis-in-morocco/  
 Updated: 2026-10-17

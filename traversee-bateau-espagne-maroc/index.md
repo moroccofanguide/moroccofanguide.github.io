@@ -1,19 +1,26 @@
 # Bateau pour le Maroc : toutes les traversées depuis l'Espagne et la France
 
-> Ferry pour le Maroc depuis l'Espagne (Tarifa, Algésiras, Motril, Almería) et Sète : durées, ports d'arrivée, conseils pour l'été et documents.
+> Bateau Espagne – Maroc : 1 h depuis Tarifa, 1 h 30 à 2 h depuis Algésiras, prix du billet à pied ou en voiture, ports d'arrivée, Sète et conseils pour l'été.
 
 URL: https://moroccofanguide.com/traversee-bateau-espagne-maroc/  
-Mis à jour: 2026-10-15
+Mis à jour: 2026-10-27
 
 Prendre le bateau reste la façon la plus simple de venir au Maroc avec sa voiture, et souvent la moins chère quand on voyage à plusieurs. Depuis le sud de l'Espagne, la traversée dure à peine une à deux heures ; depuis la France, comptez de une à près de deux journées de mer. Voici les lignes, les ports d'arrivée et nos conseils pour choisir.
 
+## En bref : durée, distance, prix
+
+- **Durée** : environ 1 h entre Tarifa et Tanger Ville, 1 h 30 à 2 h entre Algésiras et Tanger Med, environ 35 à 48 h depuis Sète.
+- **Distance** : le détroit de Gibraltar ne fait qu'environ 14 km à son point le plus étroit ; la traversée Tarifa – Tanger fait environ 31 à 35 km.
+- **Prix du billet** (aller simple, relevés des comparateurs en 2026, à vérifier à la réservation) : environ 38 à 60 € à pied entre Tarifa et Tanger Ville ; environ 160 à 270 € pour une voiture avec conducteur entre Algésiras et Tanger Med hors pointe, bien plus en été.
+
 **Au sommaire**
 
-1. [Les lignes en un coup d'œil](#s1)
-2. [Quelle traversée choisir ?](#s2)
-3. [Réserver pour l'été : nos conseils](#s3)
-4. [Les documents à prévoir](#s4)
-5. [Questions fréquentes](#faq)
+1. [En bref : durée, distance, prix](#bref)
+2. [Les lignes en un coup d'œil](#s1)
+3. [Quelle traversée choisir ?](#s2)
+4. [Réserver pour l'été : nos conseils](#s3)
+5. [Les documents à prévoir](#s4)
+6. [Questions fréquentes](#faq)
 
 ## Les lignes en un coup d'œil
 
@@ -23,7 +30,7 @@ Prendre le bateau reste la façon la plus simple de venir au Maroc avec sa voitu
 | Algésiras (Espagne) | Tanger Med | 1 h 30 à 2 h | Voitures, camping-cars ; la ligne la plus fréquente |
 | Motril (Espagne) | Tanger Med, Nador, Al Hoceima | 5 h à 8 h selon le port | Voyageurs venant de Grenade ou de Madrid |
 | Almería (Espagne) | Nador | 6 h à 8 h environ | Destination Oriental (Nador, Oujda, Saïdia) |
-| Sète (France) | Tanger Med, Nador | 24 h à 40 h environ selon le port et la compagnie | Voyageurs du sud de la France qui évitent la route d'Espagne |
+| Sète (France) | Tanger Med, Nador | 35 h à 48 h environ selon le port et la compagnie | Voyageurs du sud de la France qui évitent la route d'Espagne |
 | Barcelone (Espagne) | Tanger Med | 24 h à 32 h environ | Voyageurs du nord-est de l'Espagne et de France |
 
 Les durées varient selon la compagnie, le navire et la météo : vérifiez toujours l'horaire exact au moment de réserver.
@@ -44,7 +51,7 @@ Pour Nador, Oujda, Berkane ou Saïdia, les lignes vers Nador évitent de travers
 
 ### Vous partez de France : Sète – Tanger Med ou Nador
 
-Le port de Sète est le principal port français de passagers vers le Maroc. La traversée dure de 24 à 40 heures environ selon le port d'arrivée et la compagnie, ce qui évite de traverser toute l'Espagne en voiture. Une cabine est vivement conseillée. Le nombre de départs augmente fortement en été.
+Le port de Sète est le principal port français de passagers vers le Maroc. La traversée dure de 35 à 48 heures environ selon le port d'arrivée et la compagnie, ce qui évite de traverser toute l'Espagne en voiture. Une cabine est vivement conseillée. Le nombre de départs augmente fortement en été.
 
 ## Réserver pour l'été : nos conseils
 
@@ -68,6 +75,18 @@ Liens partenaires : si vous réservez par ce biais, nous touchons une petite com
 - Si le véhicule ne vous appartient pas, une autorisation du propriétaire est demandée.
 
 ## Questions fréquentes
+
+### Combien de temps dure la traversée en bateau entre l'Espagne et le Maroc ?
+
+Environ 1 h entre Tarifa et Tanger Ville, 1 h 30 à 2 h entre Algésiras et Tanger Med. Les lignes vers Nador sont plus longues, et depuis Sète, en France, il faut compter environ 35 à 48 h.
+
+### Quelle distance sépare l'Espagne du Maroc en bateau ?
+
+Le détroit de Gibraltar mesure environ 14 km à son point le plus étroit. La traversée en ferry entre Tarifa et Tanger fait environ 31 à 35 km.
+
+### Combien coûte un billet de bateau entre l'Espagne et le Maroc ?
+
+D'après les comparateurs de ferries en 2026, comptez environ 38 à 60 € l'aller simple à pied entre Tarifa et Tanger Ville, et environ 160 à 270 € pour une voiture avec conducteur entre Algésiras et Tanger Med hors pointe. En été, les prix montent nettement : réservez tôt.
 
 ### Quelle est la traversée la plus courte vers le Maroc ?
 

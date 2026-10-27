@@ -1,6 +1,6 @@
 # Prices in Morocco: what tea, coffee, breakfast and taxis really cost
 
-> How much do tea, coffee, breakfast and taxis cost in Morocco? Real local prices so you don't pay the tourist price, from someone who lives there.
+> How much does a coffee cost in Morocco? 12 to 17 DH, mint tea 8 to 15 DH, a metered petit taxi under 20 DH in town: real local prices, from someone who lives here.
 
 URL: https://moroccofanguide.com/en/morocco-prices/  
 Updated: 2026-10-17

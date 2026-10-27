@@ -50,7 +50,7 @@ Se déplacer
 
 ### [Taxis au Maroc : le mode d'emploi](https://moroccofanguide.com/taxis-maroc/)
 
-Taxis au Maroc : la règle du compteur, éviter le prix touriste, grands taxis à prix fixe et ce qu'il faut savoir sur inDrive, par un habitant du Maroc.
+Taxis au Maroc : petit taxi au compteur (moins de 20 DH pour un court trajet, 20 à 30 DH pour 4 km), éviter le prix touriste, grands taxis et inDrive, par un habitant.
 
 17 octobre 2026 · 6 min de lecture
 
@@ -60,7 +60,7 @@ Conseils pratiques
 
 ### [Prix au Maroc : les repères d'un local](https://moroccofanguide.com/prix-maroc/)
 
-Combien coûtent un thé, un café, un petit-déjeuner ou un taxi au Maroc ? Les prix locaux réels pour ne pas payer le prix touriste, par un habitant.
+Combien coûte un café au Maroc ? 12 à 17 DH, un thé 8 à 15 DH, un petit taxi au compteur moins de 20 DH en ville : les prix locaux réels, par un habitant.
 
 17 octobre 2026 · 3 min de lecture
 
@@ -110,9 +110,9 @@ Venir au Maroc
 
 ### [Bateau pour le Maroc : toutes les traversées](https://moroccofanguide.com/traversee-bateau-espagne-maroc/)
 
-Ferry pour le Maroc depuis l'Espagne (Tarifa, Algésiras, Motril, Almería) et Sète : durées, ports d'arrivée, conseils pour l'été et documents.
+Bateau Espagne – Maroc : 1 h depuis Tarifa, 1 h 30 à 2 h depuis Algésiras, prix du billet à pied ou en voiture, ports d'arrivée, Sète et conseils pour l'été.
 
-15 octobre 2026 · 4 min de lecture
+27 octobre 2026 · 5 min de lecture
 
 [![Dromadaires dans le désert d'Agafay, l'Atlas en arrière-plan](https://moroccofanguide.com/img/agafay-500.jpg)](https://moroccofanguide.com/excursions-depuis-marrakech/)
 
