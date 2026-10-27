@@ -4,6 +4,22 @@ Règle : au plus 2 nouveaux articles par semaine (lundi et jeudi), en français 
 Priorité = volume de recherche × intention de réservation (activités GetYourGuide, ferry, hôtels) ÷ concurrence.
 Volumes : OpenRush, France, octobre 2026 (confiance 0,7). Vérifier chaque fait avant publication.
 
+## Longue traîne (décision d'abdallah, 2026-10-27)
+Le site est trop jeune pour les requêtes courtes (« bateau espagne maroc » : pos. 80-90). On vise d'abord les
+questions précises de 3 mots et plus, peu disputées : chaque article et chaque mise à jour répond en haut de page,
+en 1-2 phrases, aux questions exactes (durée, distance, prix, horaires, sécurité, « avec voiture », « depuis X »),
+puis les reprend en FAQ. Titres construits sur la question réelle, pas sur le mot-clé court.
+Sources des questions : requêtes Search Console (y compris celles en pos. 50-100), sections « Autres questions »
+lues à la main, forums. Jamais de page quasi identique par variante (pages satellites interdites) : une variante
+= une section ou une question de FAQ dans la page existante, une nouvelle page seulement pour un vrai sujet distinct.
+Pistes relevées dans Search Console le 27/10 :
+- Ferry : « traversée espagne maroc en voiture », « prix bateau espagne-maroc avec voiture », « combien d'heures de
+  bateau espagne maroc » (section voiture + FAQ faites/à compléter).
+- Prix : « combien coûte un café au maroc », « café taxi marrakech » (titre refait le 27/10).
+- Sécurité : « place jemaa el-fna dangereux », « marrakech la nuit dangereux » (titre refait le 27/10).
+- Agafay : « la dune agafay », « aziz agafay desert » (noms de camps : pas de page dédiée).
+Nouveaux articles : préférer « Sète – Tanger en bateau » (question précise, KD 0) à des sujets génériques.
+
 ## Publiés
 - 2026-10-15 — Bateau pour le Maroc (/traversee-bateau-espagne-maroc/ · /en/ferry-spain-morocco/)
 - 2026-10-15 — Excursions depuis Marrakech (/excursions-depuis-marrakech/ · /en/day-trips-from-marrakech/) — « excursion marrakech » 2 900/mois
