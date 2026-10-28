@@ -2,10 +2,14 @@
 
 Usage : python3 -I outils/photo.py <clé> "<titre exact du fichier Commons, sans File:>" "<alt FR>" "<alt EN>"
         python3 -I outils/photo.py --chercher "<mots-clés>"   (liste des photos « Quality images » avec licence)
+        python3 -I outils/photo.py --pixabay "<mots-clés anglais>"   (2e source si Commons n'a rien de bon)
+        python3 -I outils/photo.py <clé> pixabay:<id> "<alt FR>" "<alt EN>"
+Pixabay : licence Pixabay (usage commercial permis, crédit non exigé mais affiché). Photos avec des personnes
+reconnaissables, des marques ou des logos exclues. Fichiers téléchargés sur le site (pas de lien direct vers Pixabay).
 La clé (a-z, 0-9, -) s'utilise ensuite dans les métadonnées d'un article : "image": "<clé>".
 Licences acceptées : CC0, domaine public, CC BY, CC BY-SA (le crédit est affiché automatiquement).
 """
-import json, os, re, sys, urllib.parse, urllib.request
+import io, json, os, re, sys, time, urllib.parse, urllib.request
 
 BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 API = 'https://commons.wikimedia.org/w/api.php?'
@@ -41,6 +45,61 @@ def chercher(q):
             print(f'{ok} [{label}] {pg["title"][5:]} | {ii["width"]}x{ii["height"]} | {lic} | {art[:40]}')
 
 
+PERSONNES = {'woman', 'women', 'man', 'men', 'girl', 'boy', 'child', 'children', 'kid', 'people', 'person',
+             'portrait', 'face', 'model', 'family', 'couple', 'logo', 'brand'}
+
+
+def pixabay(**p):
+    """Appel à l'API Pixabay, réponses gardées 24 h comme l'exigent ses conditions."""
+    cle = re.search(r'PIXABAY_KEY=(\S+)', open(os.path.join(BASE, '..', '..', '.secrets', 'pixabay.env')).read()).group(1)
+    p.update(image_type='photo', safesearch='true', per_page=p.get('per_page', 20))
+    cache_dir = os.path.join(BASE, '.cache-pixabay')
+    os.makedirs(cache_dir, exist_ok=True)
+    fic = os.path.join(cache_dir, re.sub(r'[^a-z0-9]+', '-', urllib.parse.urlencode(sorted(p.items())).lower()) + '.json')
+    if os.path.exists(fic) and time.time() - os.path.getmtime(fic) < 86400:
+        return json.load(open(fic))
+    p['key'] = cle
+    d = json.load(urllib.request.urlopen(urllib.request.Request('https://pixabay.com/api/?' + urllib.parse.urlencode(p),
+                                                                headers=UA), timeout=30))
+    json.dump(d, open(fic, 'w'))
+    return d
+
+
+def sans_personne(h):
+    return not (PERSONNES & {t.strip() for t in h['tags'].lower().split(',')})
+
+
+def chercher_pixabay(q):
+    for h in pixabay(q=q, orientation='horizontal', min_width=1280, order='popular')['hits']:
+        ok = 'OK' if sans_personne(h) else 'non (personne/marque)'
+        print(f'{ok} pixabay:{h["id"]} | {h["imageWidth"]}x{h["imageHeight"]} | {h["tags"]} | {h["user"]} | {h["pageURL"]}')
+
+
+def ajouter_pixabay(cle, ident, alt_fr, alt_en, path, images):
+    hits = pixabay(id=ident)['hits']
+    if not hits:
+        raise SystemExit(f'photo Pixabay introuvable : {ident}')
+    h = hits[0]
+    if not sans_personne(h):
+        raise SystemExit(f'photo refusée (personne ou marque dans les tags) : {h["tags"]}')
+    from PIL import Image
+    grande = Image.open(io.BytesIO(urllib.request.urlopen(urllib.request.Request(h['largeImageURL'], headers=UA),
+                                                          timeout=60).read())).convert('RGB')
+    tailles = {}
+    for w, suffixe in ((960, ''), (500, '-500')):
+        im = grande.resize((w, round(grande.height * w / grande.width)), Image.LANCZOS)
+        fic = os.path.join(BASE, 'static', 'img', f'{cle}{suffixe}.jpg')
+        im.save(fic, 'JPEG', quality=82, optimize=True, progressive=True)
+        tailles[w] = (im.size, os.path.getsize(fic))
+    (w, hh), ko = tailles[960]
+    images[cle] = {'file': f'/img/{cle}.jpg', 'small': f'/img/{cle}-500.jpg', 'w': w, 'h': hh,
+                   'alt_fr': alt_fr, 'alt_en': alt_en, 'author': h['user'], 'license': 'Licence Pixabay',
+                   'license_url': 'https://pixabay.com/service/license-summary/', 'source': h['pageURL'],
+                   'site': 'Pixabay'}
+    json.dump(images, open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    print(f'{cle} ajoutée : Pixabay, {h["user"]}, {ko // 1024} Ko + {tailles[500][1] // 1024} Ko')
+
+
 def ajouter(cle, titre, alt_fr, alt_en):
     if not re.fullmatch(r'[a-z0-9-]+', cle):
         raise SystemExit('clé invalide (a-z, 0-9, -)')
@@ -48,6 +107,8 @@ def ajouter(cle, titre, alt_fr, alt_en):
     images = json.load(open(path, encoding='utf-8'))
     if cle in images:
         raise SystemExit(f'clé déjà utilisée : {cle}')
+    if titre.startswith('pixabay:'):
+        return ajouter_pixabay(cle, titre[8:], alt_fr, alt_en, path, images)
     files = {}
     for w, suffixe in ((960, ''), (500, '-500')):
         d = api(action='query', titles='File:' + titre, prop='imageinfo', iiprop='url|extmetadata', iiurlwidth=w)
@@ -71,6 +132,8 @@ def ajouter(cle, titre, alt_fr, alt_en):
 
 if len(sys.argv) == 3 and sys.argv[1] == '--chercher':
     chercher(sys.argv[2])
+elif len(sys.argv) == 3 and sys.argv[1] == '--pixabay':
+    chercher_pixabay(sys.argv[2])
 elif len(sys.argv) == 5:
     ajouter(*sys.argv[1:])
 else:

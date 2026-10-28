@@ -18,6 +18,22 @@ Pistes relevées dans Search Console le 27/10 :
 - Prix : « combien coûte un café au maroc », « café taxi marrakech » (titre refait le 27/10).
 - Sécurité : « place jemaa el-fna dangereux », « marrakech la nuit dangereux » (titre refait le 27/10).
 - Agafay : « la dune agafay », « aziz agafay desert » (noms de camps : pas de page dédiée).
+Volumes et concurrence (OpenSEO, Google France, 27/10 ; « concurrence » = enchères Google Ads, KD = difficulté SEO 0-100) :
+- sete tanger bateau 5 400 (KD 0, conc. moyenne) ; bateau sete tanger 3 600 → article Sète-Tanger prioritaire.
+- bateau espagne maroc 1 900 ; ferry espagne maroc 1 000 ; traversée espagne maroc 1 000 (KD 0, conc. moyenne/moyenne/moyenne) ;
+  billet bateau espagne maroc 320 ; prix bateau espagne maroc 140 ; durée traversée 70 ; en voiture 50 ; avec voiture (prix) 40.
+- bateau tarifa tanger 720 (KD 21, conc. forte).
+- taxi maroc 590 ; prix taxi marrakech 480 ; prix taxi maroc 170 (KD 0, conc. faible) → titre taxis recentré le 27/10.
+- prix maroc 210 ; prix au maroc 170 ; prix café maroc 20 ; combien coûte un café au maroc 20.
+- marrakech la nuit 110 ; place jemaa el fna dangereux 110 ; marrakech la nuit dangereux 20 ; marrakech dangereux 30.
+Limite : KD 0 partout sur le ferry alors que la page est en pos. 70-90 : le KD de cette source sous-estime la difficulté en France.
+Idées DataForSEO (Google Ads France, 27/10, 5 728 idées, fichier donnees/20261027-201319-idees.json ; conc. = enchères Ads) :
+- Aéroport de Marrakech (8 100/mois × plusieurs formulations, conc. faible) : arrivée, taxi (prix), bus, transfert → nouvel article, lien taxis.
+- Sète – Tanger (5 400 + 3 600 + gnv sete tanger 2 400 + ferry sete tanger 1 000, conc. moyenne) → article prioritaire confirmé.
+- Change euro / dirham (14 800, 12 100, devise du maroc 3 600, taux de change maroc 880, conc. faible) : intention surtout
+  « convertisseur » (Google affiche le sien) → article « où et comment changer ses euros au Maroc » (bureaux, frais, distributeurs).
+- Marrakech → Essaouira (1 600, moyenne), quad à Marrakech (1 900) et buggy (1 000), cascade d'Ouzoud (590, faible).
+- Place Jemaa el-Fna (18 100, faible) et souk de Marrakech (5 400, faible) : pages existantes, titres à vérifier.
 Nouveaux articles : préférer « Sète – Tanger en bateau » (question précise, KD 0) à des sujets génériques.
 
 ## Publiés

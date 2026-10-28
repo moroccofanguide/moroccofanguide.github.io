@@ -50,7 +50,7 @@ Se déplacer
 
 ### [Taxis au Maroc : le mode d'emploi](https://moroccofanguide.com/taxis-maroc/)
 
-Prix d'un taxi à Marrakech et au Maroc : petit taxi au compteur (moins de 20 DH pour un court trajet, 20 à 30 DH pour 4 km), grands taxis, inDrive, par un habitant.
+Prix d'un taxi à Marrakech et au Maroc : petit taxi au compteur (moins de 20 DH en ville), grands taxis, inDrive, par un habitant.
 
 17 octobre 2026 · 6 min de lecture
 

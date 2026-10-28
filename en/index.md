@@ -60,7 +60,7 @@ Travel tips
 
 ### [Prices in Morocco: a local's benchmarks](https://moroccofanguide.com/en/morocco-prices/)
 
-How much does a coffee cost in Morocco? 12 to 17 DH, mint tea 8 to 15 DH, a metered petit taxi under 20 DH in town: real local prices, from someone who lives here.
+How much does a coffee cost in Morocco? 12 to 17 DH, mint tea 8 to 15 DH, a metered petit taxi under 20 DH: real local prices.
 
 17 October 2026 · 3 min read
 

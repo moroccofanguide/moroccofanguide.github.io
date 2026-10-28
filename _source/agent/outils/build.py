@@ -102,7 +102,7 @@ def img(key, lang, used, cls='', big=False, eager=False):
 def credit(key, lang):
     i = IMAGES[key]
     lic = f'<a href="{i["license_url"]}" rel="license noopener">{e(i["license"])}</a>'
-    return f'{T[lang]["photo"]} : <a href="{i["source"]}" rel="noopener">{e(i["author"])}</a>, {lic}, Wikimedia Commons'
+    return f'{T[lang]["photo"]} : <a href="{i["source"]}" rel="noopener">{e(i["author"])}</a>, {lic}, {i.get("site", "Wikimedia Commons")}'
 
 
 def reading_time(body):
