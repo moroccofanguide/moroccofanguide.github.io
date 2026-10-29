@@ -43,7 +43,7 @@ The desert starts about thirty kilometres from the city. Allow roughly 45 minute
 
 ### Quad biking and buggies
 
-Agafay's hard, rocky ground suits quad and buggy rides across the hills and dry riverbeds. Rides are led by a guide, with a helmet and a briefing before setting off; automatic quads are available for beginners. Bring a scarf against the dust and sunglasses. If you travel with children, ask each provider about minimum age and passenger rules.
+Agafay's hard, rocky ground suits quad and buggy rides across the hills and dry riverbeds. Rides are led by a guide, with a helmet and a briefing before setting off; automatic quads are available for beginners. Bring a scarf against the dust and sunglasses. If you travel with children, ask each provider about minimum age and passenger rules. More details (licence, duration, what to wear) in our guide to [quad biking in Agafay](https://moroccofanguide.com/en/quad-biking-agafay-marrakech/).
 
 ### Camel rides
 

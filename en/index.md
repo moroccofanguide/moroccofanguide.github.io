@@ -14,6 +14,16 @@ Getting to Morocco, getting around, enjoying the cities and preparing for the 20
 
 ## Latest articles
 
+[![Camels in the Agafay desert with the Atlas mountains behind](https://moroccofanguide.com/img/agafay-500.jpg)](https://moroccofanguide.com/en/quad-biking-agafay-marrakech/)
+
+Marrakech
+
+### [Quad biking in Agafay from Marrakech](https://moroccofanguide.com/en/quad-biking-agafay-marrakech/)
+
+Quad biking in Agafay: minimum age, licence, how long it lasts, what to wear, safety and what to check before booking from Marrakech.
+
+29 October 2026 · 5 min read
+
 [![The former Majorelle-blue studio and its pool surrounded by cacti, Jardin Majorelle, Marrakech](https://moroccofanguide.com/img/majorelle-500.jpg)](https://moroccofanguide.com/en/majorelle-garden/)
 
 Marrakech

@@ -34,7 +34,7 @@ Les temps de route sont indicatifs et dépendent des arrêts, de la circulation 
 
 ### Le désert d'Agafay
 
-À une quarantaine de kilomètres au sud-ouest de Marrakech, Agafay est un désert de pierre et de collines, avec l'Atlas en toile de fond. Ce n'est pas le Sahara des grandes dunes, mais l'ambiance est saisissante au coucher du soleil. On y vient pour une balade à dos de dromadaire, une sortie en quad ou en buggy, puis un dîner sous une tente berbère. C'est l'excursion la plus facile à caser dans un court séjour. Tout savoir dans notre guide du [désert d'Agafay](https://moroccofanguide.com/desert-agafay/).
+À une quarantaine de kilomètres au sud-ouest de Marrakech, Agafay est un désert de pierre et de collines, avec l'Atlas en toile de fond. Ce n'est pas le Sahara des grandes dunes, mais l'ambiance est saisissante au coucher du soleil. On y vient pour une balade à dos de dromadaire, une sortie en quad ou en buggy, puis un dîner sous une tente berbère. C'est l'excursion la plus facile à caser dans un court séjour. Tout savoir dans notre guide du [désert d'Agafay](https://moroccofanguide.com/desert-agafay/) et, pour le quad, dans notre page [quad à Agafay](https://moroccofanguide.com/quad-agafay-marrakech/).
 
 ### La vallée de l'Ourika
 

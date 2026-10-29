@@ -14,6 +14,16 @@ Venir au Maroc, s'y déplacer, profiter des villes et préparer la Coupe du mond
 
 ## Derniers articles
 
+[![Dromadaires dans le désert d'Agafay, l'Atlas en arrière-plan](https://moroccofanguide.com/img/agafay-500.jpg)](https://moroccofanguide.com/quad-agafay-marrakech/)
+
+Marrakech
+
+### [Faire du quad à Agafay depuis Marrakech](https://moroccofanguide.com/quad-agafay-marrakech/)
+
+Quad à Agafay : âge minimum, permis, durée de la sortie, tenue, sécurité et points à vérifier avant de réserver depuis Marrakech.
+
+29 octobre 2026 · 5 min de lecture
+
 [![L'ancien atelier bleu Majorelle et son bassin entourés de cactus, au Jardin Majorelle à Marrakech](https://moroccofanguide.com/img/majorelle-500.jpg)](https://moroccofanguide.com/jardin-majorelle/)
 
 Marrakech

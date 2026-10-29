@@ -34,7 +34,7 @@ Driving times are approximate and depend on stops, traffic and weather, especial
 
 ### The Agafay desert
 
-About forty kilometres south-west of Marrakech, Agafay is a desert of stone and rolling hills with the Atlas as a backdrop. It is not the Sahara of the big dunes, but the atmosphere at sunset is striking. People come for a camel ride, a quad or buggy session, then dinner in a Berber tent. It is the easiest excursion to fit into a short stay. Find out more in our [Agafay desert guide](https://moroccofanguide.com/en/agafay-desert/).
+About forty kilometres south-west of Marrakech, Agafay is a desert of stone and rolling hills with the Atlas as a backdrop. It is not the Sahara of the big dunes, but the atmosphere at sunset is striking. People come for a camel ride, a quad or buggy session, then dinner in a Berber tent. It is the easiest excursion to fit into a short stay. Find out more in our [Agafay desert guide](https://moroccofanguide.com/en/agafay-desert/) and, for quad biking, our [quad biking in Agafay](https://moroccofanguide.com/en/quad-biking-agafay-marrakech/) page.
 
 ### The Ourika valley
 

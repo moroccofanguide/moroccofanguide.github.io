@@ -61,6 +61,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/morocco-prices/"/>
   </url>
   <url>
+    <loc>https://moroccofanguide.com/quad-agafay-marrakech/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/quad-agafay-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/quad-biking-agafay-marrakech/"/>
+  </url>
+  <url>
     <loc>https://moroccofanguide.com/que-faire-a-marrakech/</loc>
     <lastmod>2026-10-21</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/que-faire-a-marrakech/"/>
@@ -155,6 +161,12 @@
     <lastmod>2026-10-22</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/confidentialite/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/privacy/"/>
+  </url>
+  <url>
+    <loc>https://moroccofanguide.com/en/quad-biking-agafay-marrakech/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccofanguide.com/quad-agafay-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccofanguide.com/en/quad-biking-agafay-marrakech/"/>
   </url>
   <url>
     <loc>https://moroccofanguide.com/en/taxis-in-morocco/</loc>

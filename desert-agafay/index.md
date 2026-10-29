@@ -43,7 +43,7 @@ Le désert commence à une trentaine de kilomètres de la ville. Comptez environ
 
 ### Le quad et le buggy
 
-Le sol dur et caillouteux d'Agafay se prête bien aux sorties en quad ou en buggy, à travers les collines et les lits d'oueds asséchés. Les sorties sont encadrées par un guide, avec casque et consignes avant le départ ; des quads automatiques existent pour les débutants. Prévoyez un foulard ou un chèche contre la poussière et des lunettes de soleil. Si vous voyagez avec des enfants, demandez l'âge minimum et les règles de passager propres à chaque prestataire.
+Le sol dur et caillouteux d'Agafay se prête bien aux sorties en quad ou en buggy, à travers les collines et les lits d'oueds asséchés. Les sorties sont encadrées par un guide, avec casque et consignes avant le départ ; des quads automatiques existent pour les débutants. Prévoyez un foulard ou un chèche contre la poussière et des lunettes de soleil. Si vous voyagez avec des enfants, demandez l'âge minimum et les règles de passager propres à chaque prestataire. Détails (permis, durée, tenue) dans notre guide du [quad à Agafay](https://moroccofanguide.com/quad-agafay-marrakech/).
 
 ### La balade à dos de dromadaire
 
