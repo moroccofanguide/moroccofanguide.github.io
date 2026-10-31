@@ -44,13 +44,13 @@ Nouveaux articles : préférer « Sète – Tanger en bateau » (question préci
 - 2026-10-19 — Souks de Marrakech (/souks-marrakech/ · /en/marrakech-souks/) — « souk marrakech » 5 400/mois
 - 2026-10-20 — Place Jemaa el-Fna (/jemaa-el-fna/ · /en/jemaa-el-fna/) — « marrakech jemaa el fna » 6 600/mois
 - 2026-10-22 — Jardin Majorelle (/jardin-majorelle/ · /en/majorelle-garden/) — « majorelle marrakech » 6 600/mois
+- 2026-10-29 — Quad à Agafay (/quad-agafay-marrakech/ · /en/quad-biking-agafay-marrakech/) — « quad marrakech » 1 900/mois ; recentré sur Agafay et le quad, sans prix ; 2 témoignages (passportandstamps.com 2025-09, poshinprogress.com 2025-12) ; vécu de l'auteur toujours demandé pour la mise à jour
 
 ## À écrire (ordre de priorité — revu le 2026-10-16 d'après les SERP Google FR mobile)
 Règle de priorité : d'abord les requêtes où de PETITS sites sont en tête (place prenable par un site neuf),
 avec intention de réservation ; les requêtes tenues par des opérateurs ou gros comparateurs viennent après.
-1. Quad et buggy à Marrakech (Agafay, palmeraie) — « quad marrakech » 1 900/mois. BROUILLON 2026-10-26. 2026-10-27 : 2 témoignages Agafay enregistrés (sources/quad-buggy-marrakech.json, vérification OK avec réserve). Publiable recentré sur le quad à Agafay, témoignages présentés comme tels ; Palmeraie et buggy seulement comme offres, sans prix ni avis (aucun témoignage). Vécu de l’auteur toujours demandé pour la mise à jour.
-2. Sète – Tanger en bateau : durée (39-48 h), ports, conseils — « sete tanger » / « sete tanger bateau » 5 400, KD 0
-   (opérateurs en tête : viser les questions pratiques).
+1. Sète – Tanger en bateau : durée (39-48 h), ports, conseils — « sete tanger » / « sete tanger bateau » 5 400, KD 0
+   (opérateurs en tête : viser les questions pratiques). [ancien n° 2, devenu 1 le 2026-10-29 : quad publié]
 3. Essaouira : que faire, y aller depuis Marrakech — « essaouira maroc » 9 900, KD 8.
 4. Chefchaouen : que faire, comment y aller depuis Tanger ou Fès — « chefchaouen » 40 500, KD 8 (SERP à vérifier).
 5. Aéroport de Marrakech-Ménara : rejoindre la ville (taxi, bus, transfert) — « aeroport marrakech » 8 100, KD 0.
