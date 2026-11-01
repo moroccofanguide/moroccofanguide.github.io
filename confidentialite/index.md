@@ -3,7 +3,7 @@
 > Données et cookies sur Morocco Fan Guide : hébergement, liens partenaires, cookies d'affiliation de Travelpayouts.
 
 URL: https://moroccofanguide.com/confidentialite/  
-Mis à jour: 2026-10-22
+Mis à jour: 2026-11-01
 
 Dernière mise à jour : 21 octobre 2026.
 
@@ -28,6 +28,14 @@ Les pages contiennent une balise de vérification Pinterest, qui ne dépose pas 
 ## Mesure d'audience
 
 Depuis le 22 octobre 2026, le site utilise [Ahrefs Web Analytics](https://help.ahrefs.com/en/articles/10247870-about-ahrefs-web-analytics) pour compter les visites. Selon Ahrefs, cet outil ne dépose aucun cookie, ne conserve pas les adresses IP et ne suit pas un visiteur d'un jour à l'autre. Il enregistre les pages vues, le site d'où vous venez, votre pays, votre navigateur et le type d'appareil.
+
+## Données Facebook et Instagram
+
+Morocco Fan Guide et les pages Facebook Humour et Lovely Pets utilisent deux applications Meta (« moveon publication » et « Myappmetx »). Elles servent uniquement à publier nos propres contenus, à lire les statistiques de nos pages et à lire les commentaires publiés sous nos posts pour y répondre. Elles ne permettent pas de se connecter avec Facebook et ne conservent aucune donnée personnelle des visiteurs ni des abonnés.
+
+### Suppression des données
+
+Vous pouvez supprimer à tout moment un commentaire que vous avez publié sous nos posts, depuis Facebook ou Instagram. Pour toute autre demande de suppression, écrivez à la page Morocco Fan Guide par [Messenger](https://m.me/1374136485786308) avec la mention « Suppression des données » : réponse sous 30 jours.
 
 ## Modifications
 

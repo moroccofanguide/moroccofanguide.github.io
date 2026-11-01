@@ -3,7 +3,7 @@
 > Data and cookies on Morocco Fan Guide: hosting, partner links and Travelpayouts affiliate cookies.
 
 URL: https://moroccofanguide.com/en/privacy/  
-Updated: 2026-10-22
+Updated: 2026-11-01
 
 Last updated: 21 October 2026.
 
@@ -28,6 +28,14 @@ Pages contain a Pinterest verification tag, which sets no cookie. There are no s
 ## Audience measurement
 
 Since 22 October 2026 the site uses [Ahrefs Web Analytics](https://help.ahrefs.com/en/articles/10247870-about-ahrefs-web-analytics) to count visits. According to Ahrefs, it sets no cookie, does not store IP addresses and does not track a visitor from one day to the next. It records the pages viewed, the referring site, your country, your browser and your device type.
+
+## Facebook and Instagram data
+
+Morocco Fan Guide and the Facebook pages Humour and Lovely Pets use two Meta apps (“moveon publication” and “Myappmetx”). They are only used to publish our own content, read our page statistics and read the comments posted under our posts in order to reply. They do not offer Facebook Login and keep no personal data about visitors or followers.
+
+### Data deletion
+
+You can delete a comment you posted under our posts at any time, from Facebook or Instagram. For any other deletion request, message the Morocco Fan Guide page on [Messenger](https://m.me/1374136485786308) with “Data deletion”: we reply within 30 days.
 
 ## Changes
 
