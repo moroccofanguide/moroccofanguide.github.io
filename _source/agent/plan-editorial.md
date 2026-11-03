@@ -50,7 +50,7 @@ Nouveaux articles : préférer « Sète – Tanger en bateau » (question préci
 Règle de priorité : d'abord les requêtes où de PETITS sites sont en tête (place prenable par un site neuf),
 avec intention de réservation ; les requêtes tenues par des opérateurs ou gros comparateurs viennent après.
 1. Sète – Tanger en bateau : durée (39-48 h), ports, conseils — « sete tanger » / « sete tanger bateau » 5 400, KD 0
-   (opérateurs en tête : viser les questions pratiques). [ancien n° 2, devenu 1 le 2026-10-29 : quad publié]
+   (opérateurs en tête : viser les questions pratiques). [ancien n° 2, devenu 1 le 2026-10-29 : quad publié ; 2026-11-02 : brouillon écrit, bloqué faute de vécu (contenu/brouillons/sete-tanger-bateau.md), 3 questions à l'auteur ; ne pas publier avant contenu/vecu/sete-tanger-bateau.md]
 3. Essaouira : que faire, y aller depuis Marrakech — « essaouira maroc » 9 900, KD 8.
 4. Chefchaouen : que faire, comment y aller depuis Tanger ou Fès — « chefchaouen » 40 500, KD 8 (SERP à vérifier).
 5. Aéroport de Marrakech-Ménara : rejoindre la ville (taxi, bus, transfert) — « aeroport marrakech » 8 100, KD 0.
