@@ -1,0 +1,21 @@
+{
+  "sujet": "Jardin Majorelle, Marrakech : bien préparer sa visite",
+  "format": "carrousel 5 images 1080x1350",
+  "article_source": "https://moroccofanguide.com/jardin-majorelle/",
+  "images": [
+    {"n": 1, "titre": "Jardin Majorelle : ce qu'il faut savoir avant d'y aller", "texte": "Le site le plus visité de Marrakech. 5 infos pour bien préparer ta visite.", "faits": []},
+    {"n": 2, "titre": "Billet : uniquement en ligne", "texte": "Plus de guichet depuis 2023. Un seul site officiel : tickets.jardinmajorelle.com. Les billets achetés ailleurs peuvent être refusés à l'entrée.", "faits": ["F1","F2"]},
+    {"n": 3, "titre": "Horaires et bon créneau", "texte": "Jardin : 8 h - 17 h 30 (dernier accès 17 h), ouvert tous les jours. Vise le premier créneau du matin : la foule arrive vite.", "faits": ["F3","F4"]},
+    {"n": 4, "titre": "Le mercredi, évite", "texte": "Le musée Yves Saint Laurent et le jardin privé de la Villa Oasis sont fermés le mercredi.", "faits": ["F3"]},
+    {"n": 5, "titre": "Compte 1 h à 2 h", "texte": "45 min à 1 h pour le jardin, plus avec le musée berbère. Prix indicatif : environ 170 DH (adulte non résident, jardin seul), à confirmer sur la billetterie. Guide complet : moroccofanguide.com/jardin-majorelle/", "faits": ["F5","F6"]}
+  ],
+  "faits_verifies": {
+    "F1": {"fait": "Billets vendus uniquement en ligne depuis 2023, date et créneau précis", "source": "https://tickets.jardinmajorelle.com/ et https://www.jardinmajorelle.com/", "relevé": "octobre 2026"},
+    "F2": {"fait": "tickets.jardinmajorelle.com = seul site officiel (QR valable jardin + musées)", "source": "https://www.jardinmajorelle.com/", "relevé": "octobre 2026"},
+    "F3": {"fait": "Horaires jardin 8 h-17 h 30 ; YSL et Villa Oasis fermés le mercredi", "source": "site officiel + billetterie", "relevé": "octobre 2026"},
+    "F4": {"fait": "Files dès 8 h pour le créneau de 8 h 30, jardin bondé 10 min après l'entrée", "source": "https://thirdeyetraveller.com/how-to-visit-jardin-majorelle-marrakech/ (témoignage, 2026-01)"},
+    "F5": {"fait": "Durée 45 min à 1 h (jardin), ~2 h avec musée berbère", "source": "témoignage thirdeyetraveller.com (2026-01) + article MFG"},
+    "F6": {"fait": "~170 DH adulte non résident, jardin seul", "source": "guides publiés en 2026 (via article MFG) ; prix exact = billetterie", "réserve": "non reconfirmé sur la billetterie, dire « environ »"}
+  },
+  "reserve": "Faits relevés dans l'article MFG publié en octobre 2026, pas revérifiés en direct le 11/11. Horaires et prix peuvent changer : garder la mention « vérifie sur le site officiel ». Ce sont des témoignages, pas notre visite."
+}
