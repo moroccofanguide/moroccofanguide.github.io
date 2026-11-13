@@ -52,7 +52,7 @@ avec intention de réservation ; les requêtes tenues par des opérateurs ou gro
 1. Sète – Tanger en bateau : durée (39-48 h), ports, conseils — « sete tanger » / « sete tanger bateau » 5 400, KD 0
    (opérateurs en tête : viser les questions pratiques). [ancien n° 2, devenu 1 le 2026-10-29 : quad publié ; 2026-11-02 : brouillon écrit, bloqué faute de vécu (contenu/brouillons/sete-tanger-bateau.md), 3 questions à l'auteur ; ne pas publier avant contenu/vecu/sete-tanger-bateau.md]
 3. Essaouira : que faire, y aller depuis Marrakech — « essaouira maroc » 9 900, KD 8.
-4. Chefchaouen : que faire, comment y aller depuis Tanger ou Fès — « chefchaouen » 40 500, KD 8 (SERP à vérifier).
+4. Chefchaouen : que faire, comment y aller depuis Tanger ou Fès — « chefchaouen » 40 500, KD 8 (SERP à vérifier). [2026-11-12 : essayé, prix du bus contradictoires, aucun témoignage daté ; attend contenu/vecu/chefchaouen.md]
 5. Aéroport de Marrakech-Ménara : rejoindre la ville (taxi, bus, transfert) — « aeroport marrakech » 8 100, KD 0.
 6. Coupe du monde 2030 au Maroc : villes, stades — « cdm maroc » 2 900 (sources officielles uniquement).
 7. Guides de villes de l'accueil (tuiles « Guide à venir » depuis le 24/10, demande d'abdallah) : Fès, Tanger, Casablanca, Rabat, Agadir — volumes à vérifier, une tuile devient cliquable dès que son guide est publié.
