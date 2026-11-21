@@ -151,16 +151,36 @@ def webmcp(pages):
     return '  <script>' + js.replace('__GUIDES__', json.dumps(guides, ensure_ascii=False).replace('</', '<\\/')) + '</script>\n'
 
 
+SHARE_ICONS = {
+    'whatsapp': '<path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1-.4-.1-.9-.3-1.5-.6-2.6-1.1-4.3-3.8-4.4-4-.1-.2-1-1.3-1-2.5s.6-1.800.9-2c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.900c.1.200.1.300 0 .500l-.3.400-.4.500c-.1.100-.3.300-.1.600.2.300.7 1.200 1.500 1.900 1 .9 1.900 1.200 2.200 1.300.3.100.4.100.6-.1l.8-1c.2-.3.400-.2.600-.1l1.800.9c.3.100.5.200.5.300.1.200.1.800-.1 1.400z"/>',
+    'facebook': '<path d="M13.5 22v-8.200h2.800l.4-3.300h-3.200V8.400c0-.9.300-1.600 1.600-1.600h1.700V3.900c-.3 0-1.300-.1-2.500-.1-2.500 0-4.200 1.500-4.200 4.300v2.400H7.300v3.300h2.800V22h3.400z"/>',
+    'telegram': '<path d="M21.500 4.300 2.900 11.500c-1.300.5-1.200 1.200-.2 1.500l4.700 1.500 1.800 5.600c.2.600.1.800.7.800.5 0 .7-.2 1-.5l2.300-2.300 4.800 3.600c.9.500 1.500.2 1.700-.8l3.100-14.900c.3-1.200-.5-1.800-1.300-1.400zM9 14.200l9.500-6c.4-.3.800-.1.500.2l-7.800 7.100-.3 3.200L9 14.200z"/>',
+    'mail': '<path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1.300 2 7.700 6 7.700-6H4.300z"/>',
+    'link': '<path d="M10.600 13.400a1 1 0 0 1 0-1.400l3-3a3 3 0 1 1 4.200 4.200l-1.500 1.500-1.400-1.400 1.500-1.500a1 1 0 0 0-1.400-1.400l-3 3a1 1 0 0 1-1.400 0zm2.800-2.800a1 1 0 0 1 0 1.400l-3 3a3 3 0 1 1-4.200-4.200l1.500-1.500 1.400 1.400-1.500 1.500a1 1 0 0 0 1.400 1.400l3-3a1 1 0 0 1 1.400 0z"/>',
+}
+SHARE_TXT = {'fr': {'mail': 'E-mail', 'copy': 'Copier le lien', 'done': 'Lien copié', 'sub': 'Un clic suffit, rien n\'est chargé avant.'},
+             'en': {'mail': 'Email', 'copy': 'Copy link', 'done': 'Link copied', 'sub': 'One click, nothing loads before.'}}
+
+
 def share_bar(p, t, url):
-    """Barre de partage sans script ni traceur : trois liens, rien n'est chargé avant le clic."""
+    """Barre de partage sans traceur ni script tiers : liens directs, rien n'est chargé avant le clic.
+    Le bouton « copier le lien » n'apparaît que si le navigateur a JavaScript (voir le script du pied de page)."""
     from urllib.parse import quote
+    x = SHARE_TXT[p['lang']]
     msg = quote(t['share_msg'] + ' ' + p['title'] + ' ' + url)
     fb = quote(url, safe='')
-    return (f'<aside class="wrap share" aria-label="{e(t["share"])}"><p class="share-title">{e(t["share"])}</p><p>'
-            f'<a rel="noopener nofollow" target="_blank" href="https://wa.me/?text={msg}">WhatsApp</a>'
-            f'<a rel="noopener nofollow" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={fb}">Facebook</a>'
-            f'<a rel="noopener nofollow" target="_blank" href="https://t.me/share/url?url={fb}&text={quote(t["share_msg"])}">Telegram</a>'
-            f'</p></aside>')
+    def ico(k):
+        return f'<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false" fill="currentColor">{SHARE_ICONS[k]}</svg>'
+    def a(k, label, href):
+        return f'<a class="s-{k}" rel="noopener nofollow" target="_blank" href="{href}">{ico(k)}<span>{label}</span></a>'
+    return (f'<aside class="wrap share" aria-label="{e(t["share"])}"><p class="share-title">{e(t["share"])}</p>'
+            f'<p class="share-btns">'
+            + a('whatsapp', 'WhatsApp', f'https://wa.me/?text={msg}')
+            + a('facebook', 'Facebook', f'https://www.facebook.com/sharer/sharer.php?u={fb}')
+            + a('telegram', 'Telegram', f'https://t.me/share/url?url={fb}&text={quote(t["share_msg"])}')
+            + f'<a class="s-mail" href="mailto:?subject={quote(p["title"])}&body={msg}">{ico("mail")}<span>{x["mail"]}</span></a>'
+            + f'<button type="button" class="s-copy" hidden data-url="{e(url)}" data-done="{x["done"]}">{ico("link")}<span>{x["copy"]}</span></button>'
+            + '</p></aside>')
 
 
 def render(p, pages):
@@ -264,7 +284,7 @@ def render(p, pages):
     </div>
     <div class="legal"><div class="wrap">{t['indep']}</div></div>
   </footer>
-  <script>(function(){{var b=document.querySelector('.menu-btn'),n=document.getElementById('nav');document.documentElement.classList.add('js');b.addEventListener('click',function(){{var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)}})}})();</script>
+  <script>(function(){{var b=document.querySelector('.menu-btn'),n=document.getElementById('nav');document.documentElement.classList.add('js');var c=document.querySelector('.s-copy');if(c&&navigator.clipboard){{c.hidden=false;c.addEventListener('click',function(){{navigator.clipboard.writeText(c.dataset.url).then(function(){{var l=c.querySelector('span');l.textContent=c.dataset.done;c.classList.add('ok')}})}})}}b.addEventListener('click',function(){{var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)}})}})();</script>
 {webmcp(pages) if p['type'] == 'home' else ''}</body>
 </html>
 '''
