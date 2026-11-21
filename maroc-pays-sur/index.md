@@ -65,6 +65,8 @@ Un touriste qui vit une mauvaise expérience au Maroc ne doit pas hésiter à le
 
 Numéros indiqués par les [conseils aux voyageurs du gouvernement britannique](https://www.gov.uk/foreign-travel-advice/morocco/getting-help). Avant de partir, lisez la fiche [Maroc de France Diplomatie](https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/maroc/) ou celle de votre pays : les grandes villes touristiques comme Marrakech ne font pas partie des zones déconseillées, mais les recommandations peuvent évoluer.
 
+À lire aussi : [la traversée en bateau entre l'Espagne et le Maroc](https://moroccofanguide.com/traversee-bateau-espagne-maroc/) (durée, distance, prix du billet et ports).
+
 ## Questions fréquentes
 
 ### Le Maroc est-il un pays sûr pour les touristes ?

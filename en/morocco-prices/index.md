@@ -52,6 +52,8 @@ Petit taxis run on the meter only, with no negotiated fare. In Marrakech, during
 - **Check the bill**: dishes added "for you to taste", drinks you did not order.
 - **In a taxi**, the meter, always.
 
+See also: [the ferry from Spain to Morocco](https://moroccofanguide.com/en/ferry-spain-morocco/) (crossing time, distance, ticket prices and ports).
+
 ## Frequently asked questions
 
 ### How much does a tea cost in Morocco?

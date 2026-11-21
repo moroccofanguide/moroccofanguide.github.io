@@ -62,3 +62,15 @@ avec intention de réservation ; les requêtes tenues par des opérateurs ou gro
 - Stades de la Coupe du monde 2030 au Maroc (« stade maroc cdm 2030 » 390/mois)
 - Rabat que faire ; Ouzoud ; Imlil ; montgolfière Marrakech ; hammam Marrakech
 - Versions anglaises : vérifier les volumes Royaume-Uni/États-Unis (« day trips from marrakech », « ferry to morocco »)
+
+## Priorités de reprise (2026-11-21, demande d'abdallah « booster les projets »)
+Constat (Search Console 28 j) : 10 clics, 0 $ de revenu. Les pages ne sont pas visibles (ferry pos 72-90, Majorelle 55, Jemaa 36) sauf prix-maroc / morocco-prices (pos 6, 355 impr, 5 clics) et marrakech-la-nuit (pos 9-11).
+Le frein n°1 n'est pas la technique mais le vécu : 4 articles prioritaires (Sète–Tanger, Chefchaouen, Essaouira, aéroport) attendent contenu/vecu/<slug>.md depuis 2 à 3 semaines.
+Ordre de travail :
+1. Titres de prix-maroc et morocco-prices : déjà centrés sur le prix du café, requêtes Search Console à 1-4 impressions, donc ne rien changer tant que les données ne montrent pas de requête précise (revu le 21/11). Liens internes vers le ferry préparés le 21/11 dans propositions/2026-11-21-liens-ferry/, NON appliqués (abdallah : rien publié sans lui).
+2. Pages en pos 6-15 (marrakech-la-nuit-securite, is-marrakech-safe-at-night, taxis-maroc) : compléter FAQ et réponse en haut de page.
+3. Ferry (477 impr, pos 72) : ne pas multiplier les variantes. Ajouter du vécu réel (fiche d'abdallah) et des liens internes depuis prix-maroc et les pages Marrakech.
+4. Aucun nouvel article sans vécu. Dès que abdallah dépose un fichier dans contenu/vecu/, cet article passe avant tout le reste.
+5. Chaque lundi : relevé Search Console dans stats-gsc.md (étape 5 bis de la routine, non faite depuis le 02/11).
+
+Consigne d'abdallah du 21/11 : il n'écrit pas de vécu et rien n'est publié sans lui. Donc aucun nouvel article, les 4 brouillons bloqués restent en brouillon. Sites inclus : moroccofanguide.com, spfdkimdmarc.com, wp-doctor.net.

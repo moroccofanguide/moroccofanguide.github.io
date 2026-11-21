@@ -34,7 +34,7 @@ T = {
         'nav': [('/traversee-bateau-espagne-maroc/', 'Venir au Maroc'), ('/que-faire-a-marrakech/', 'Marrakech'),
                 ('/#villes', 'Les villes'), ('/#cdm2030', '2030')],
         'other': 'EN', 'crumb_home': 'Accueil', 'updated': 'Mis à jour le', 'published': 'Publié le', 'by': 'Par la rédaction de Morocco Fan Guide',
-        'photo': 'Photo', 'photos': 'Crédits photo', 'read': 'min de lecture',
+        'photo': 'Photo', 'photos': 'Crédits photo', 'read': 'min de lecture', 'share': 'Utile à un proche qui voyage ? Envoie-lui ce guide', 'share_msg': 'Ce guide pourrait t\'aider :',
         'f_about': ('Morocco Fan Guide', "Guide indépendant tenu par un passionné de football qui vit au Maroc : des conseils pratiques, vérifiés et mis à jour."),
         'f_links': 'À lire', 'f_info': 'Transparence', 'about': ('/a-propos/', 'À propos'), 'privacy': ('/confidentialite/', 'Confidentialité'),
         'indep': 'Site indépendant, sans lien avec la FIFA, la Fédération royale marocaine de football ni les organisateurs du tournoi.',
@@ -47,7 +47,7 @@ T = {
         'nav': [('/en/ferry-spain-morocco/', 'Getting there'), ('/en/things-to-do-in-marrakech/', 'Marrakech'),
                 ('/en/#cities', 'Cities'), ('/en/#wc2030', '2030')],
         'other': 'FR', 'crumb_home': 'Home', 'updated': 'Updated', 'published': 'Published', 'by': 'By the Morocco Fan Guide team',
-        'photo': 'Photo', 'photos': 'Photo credits', 'read': 'min read',
+        'photo': 'Photo', 'photos': 'Photo credits', 'read': 'min read', 'share': 'Know someone travelling? Send them this guide', 'share_msg': 'This guide might help you:',
         'f_about': ('Morocco Fan Guide', 'An independent guide run by a football fan who lives in Morocco: practical, checked and up-to-date advice.'),
         'f_links': 'Read next', 'f_info': 'Transparency', 'about': ('/en/about/', 'About'), 'privacy': ('/en/privacy/', 'Privacy'),
         'indep': 'Independent website, not affiliated with FIFA, the Royal Moroccan Football Federation or the tournament organisers.',
@@ -151,6 +151,18 @@ def webmcp(pages):
     return '  <script>' + js.replace('__GUIDES__', json.dumps(guides, ensure_ascii=False).replace('</', '<\\/')) + '</script>\n'
 
 
+def share_bar(p, t, url):
+    """Barre de partage sans script ni traceur : trois liens, rien n'est chargé avant le clic."""
+    from urllib.parse import quote
+    msg = quote(t['share_msg'] + ' ' + p['title'] + ' ' + url)
+    fb = quote(url, safe='')
+    return (f'<aside class="wrap share" aria-label="{e(t["share"])}"><p class="share-title">{e(t["share"])}</p><p>'
+            f'<a rel="noopener nofollow" target="_blank" href="https://wa.me/?text={msg}">WhatsApp</a>'
+            f'<a rel="noopener nofollow" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={fb}">Facebook</a>'
+            f'<a rel="noopener nofollow" target="_blank" href="https://t.me/share/url?url={fb}&text={quote(t["share_msg"])}">Telegram</a>'
+            f'</p></aside>')
+
+
 def render(p, pages):
     t = T[p['lang']]
     lang = p['lang']
@@ -183,7 +195,8 @@ def render(p, pages):
                f'{fmt_date(p["updated"], lang)} · '
                f'{reading_time(p["body"])} {t["read"]}</p></header>'
                f'<div class="wrap wide">{figure}</div>'
-               f'<main id="contenu" class="wrap article">{body}</main>')
+               f'<main id="contenu" class="wrap article">{body}</main>'
+               f'{share_bar(p, t, url)}')
     elif p['type'] == 'page':
         ld.update({'@type': 'WebPage', 'name': p['title'], 'dateModified': p['updated']})
         top = (f'<header class="article-head wrap"><p class="crumbs"><a href="{t["home"]}">{t["crumb_home"]}</a> / '

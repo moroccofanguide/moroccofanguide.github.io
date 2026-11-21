@@ -154,3 +154,10 @@ th { font-weight: 700; color: var(--ink); border-bottom: 2px solid var(--ink); }
 .book li { margin-bottom: 8px; }
 .book a { font-weight: 600; }
 .book-note { margin: 10px 0 0; font-size: .8rem; color: var(--muted); }
+
+/* Barre de partage (articles) */
+.share { margin-top: 36px; padding: 18px 20px; background: var(--sand); border-left: 3px solid var(--accent); }
+.share-title { margin: 0 0 10px; font-family: var(--serif); font-weight: 700; font-size: 1.05rem; color: var(--ink); }
+.share p:last-child { margin: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.share a { display: inline-block; padding: 10px 16px; min-height: 44px; box-sizing: border-box; background: #fff; border: 1px solid var(--line); border-radius: 4px; color: var(--ink); font-weight: 600; text-decoration: none; }
+.share a:hover, .share a:focus-visible { border-color: var(--accent); color: var(--accent-dark); }

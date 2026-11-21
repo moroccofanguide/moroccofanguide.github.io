@@ -87,6 +87,8 @@ If you use it anyway:
 
 For a pedestrian, the most concrete danger is traffic. In big cities, many scooters ride fast and brush past people, even in medina lanes. Keep your distance, look both ways before crossing and step against the wall when a scooter comes through. And if a driver loses their temper, stay very calm and don't answer back. For evenings in Marrakech, see also [is Marrakech safe at night?](https://moroccofanguide.com/en/is-marrakech-safe-at-night/)
 
+See also: [the ferry from Spain to Morocco](https://moroccofanguide.com/en/ferry-spain-morocco/) (crossing time, distance, ticket prices and ports).
+
 ## Frequently asked questions
 
 ### Should I negotiate the fare of a petit taxi in Morocco?

@@ -65,6 +65,8 @@ A tourist who has a bad experience in Morocco should not hesitate to say so:
 
 Numbers as listed in the [UK government's travel advice for Morocco](https://www.gov.uk/foreign-travel-advice/morocco/getting-help). Before you go, read your own government's advice too: the big tourist cities such as Marrakech are not among the areas the French government advises against, but recommendations can change.
 
+See also: [the ferry from Spain to Morocco](https://moroccofanguide.com/en/ferry-spain-morocco/) (crossing time, distance, ticket prices and ports).
+
 ## Frequently asked questions
 
 ### Is Morocco safe for tourists?

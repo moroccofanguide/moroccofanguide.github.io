@@ -52,6 +52,8 @@ Le petit taxi roule exclusivement au compteur, sans prix négocié. À Marrakech
 - **Vérifiez l'addition** : plats ajoutés « pour goûter », boissons non commandées.
 - **Pour le taxi**, le compteur, toujours.
 
+À lire aussi : [la traversée en bateau entre l'Espagne et le Maroc](https://moroccofanguide.com/traversee-bateau-espagne-maroc/) (durée, distance, prix du billet et ports).
+
 ## Questions fréquentes
 
 ### Combien coûte un thé au Maroc ?

@@ -114,7 +114,8 @@ def pertes(remote):
             continue
         la = lire(p, False)
         for motif, quoi in ((r'<loc>(.*?)</loc>', 'entrée du sitemap'), (r'href="(/[^"#]*)"', 'lien')):
-            for x in sorted(set(re.findall(motif, la)) - set(re.findall(motif, ici))):
+            norm = lambda l: {re.sub(r'\?v=[0-9a-f]+$', '', u) for u in l}  # le hash de cache du CSS change à chaque build : pas une perte
+            for x in sorted(norm(re.findall(motif, la)) - norm(re.findall(motif, ici))):
                 out.append(f'{quoi} disparue dans {p} : {x}')
         if 'p:domain_verify' in la and 'p:domain_verify' not in ici:
             out.append('balise Pinterest disparue : ' + p)

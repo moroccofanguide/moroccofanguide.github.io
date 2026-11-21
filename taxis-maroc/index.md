@@ -87,6 +87,8 @@ Si vous l'utilisez quand même :
 
 Pour un piéton, le danger le plus concret est la circulation. Dans les grandes villes, beaucoup de deux-roues roulent vite et frôlent les passants, jusque dans les ruelles des médinas. Gardez vos distances, regardez des deux côtés avant de traverser et serrez le mur quand une moto arrive. Et si un conducteur s'emporte, restez très calme et ne répondez pas. Pour vos soirées à Marrakech, voir aussi [Marrakech la nuit : est-ce sûr ?](https://moroccofanguide.com/marrakech-la-nuit-securite/)
 
+À lire aussi : [la traversée en bateau entre l'Espagne et le Maroc](https://moroccofanguide.com/traversee-bateau-espagne-maroc/) (durée, distance, prix du billet et ports).
+
 ## Questions fréquentes
 
 ### Faut-il négocier le prix d'un petit taxi au Maroc ?
