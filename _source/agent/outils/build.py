@@ -204,7 +204,7 @@ def render(p, pages):
                f'<main id="contenu" class="wrap article">{body}</main>')
     else:
         ld.update({'@type': 'WebSite', 'name': 'Morocco Fan Guide'})
-        top = f'<main id="contenu">{body}</main>'
+        top = f'<main id="contenu">{body}</main>{share_bar(p, t, url)}'
     # Crédits des photos de la page qui n'ont pas déjà leur légende (accueil : vignettes, villes)
     seen = []
     for k in used:
